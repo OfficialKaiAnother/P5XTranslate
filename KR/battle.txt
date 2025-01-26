@@ -175,6 +175,10 @@ GOGO 멍멍!=GO GO WOOF WOOF RU!
 함께 추는 춤=Dancing in Hand
 어둠 속 빛=Glimmer of Night
 
+새해의 축복=New Year's Blessing
+폭죽의 노래=Song of Fireworks
+유성의 불꽃=Meteor Spark
+
 
 ++++ ----- Generic Combat Skills ----- ++++
 부흐=Bufu
@@ -341,6 +345,7 @@ GOGO 멍멍!=GO GO WOOF WOOF RU!
 존왕의 항복=King's Surrender
 응집=Cohesion
 극열=Extreme Heat
+조화의 균열=The Fracture of Harmony
 
 
 ++++ ----- Common Combat Phrases ----- ++++
