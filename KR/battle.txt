@@ -334,6 +334,7 @@ GOGO 멍멍!=GO GO WOOF WOOF RU!
 라쿠카쟈=Rakukaja
 스쿠카쟈=Sukukaja
 암야의 섬광=Nocturnal Flash
+기간토마키아=Titanomachia
 
 
 눈사태=Avalanche
