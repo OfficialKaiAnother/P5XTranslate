@@ -315,6 +315,11 @@
 다에이라=Daeira
 레우코테아=Leucothea
 만돌란=Mandrin
+년수=Nian
+상드리용=Cendrillon
+맹파·영춘=Meng Po·\nEternal Spring
+
+
 
 
 ++++ ----- CV's ----- ++++
