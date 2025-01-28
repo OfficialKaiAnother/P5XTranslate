@@ -16,6 +16,24 @@ Genbu
 r:"^북쪽 땅의 얼음(.*)$"="Arctic Chill $1"
 r:"^방어력이 (\d+\.\d+%) 증가한다. 동결 상태인 적에게 받는 대미지가 (\d+%) 감소한다. 동결 상태인 적에 대한 공격력이 (\d+%) 증가한다.$"="Increase DEF by $1. Decrease DMG Taken by $2 from enemies inflicted with Freeze. Increase ATK by $3 to enemies inflicted with Freeze."
 
+----------
+RANK 2
+----------
+Eligor
+r:"^기사의 날카로운 눈빛(.*)$"="Knight's Sharp Gaze $1"
+r:"^크리티컬 효과가 (\d+%) 증가한다. 1명의 적을 목표로 물리 속성 대미지를 줄 시 공격력이 (\d+%), 크리티컬 확률이 (\d+%) 증가한다.$"="Increase CRIT DMG by $1. When dealing Physical damage to 1 enemy, increase ATK by $2 and increase CRIT Rate by $3."
+
+Apsaras
+r:"^감미로운 노랫소리(.*)$"="Gentle Chant $1"
+r:"^방어력이 (\d+\.\d+%) 증가한다. 동료를 목표로 스킬 시전 시 2턴 동안 동료의 방어력이 (\d+\.\d+%) 증가한다.$"="Increase DEF by $1. When using a skill on allies, increase their DEF by $2 for 2 turns."
+
+Leanan Sidhe
+r:"^연인의 이중주=(.*)$"="Lover's Duet $1"
+r:"^공격력이 (\d+\.\d+%) 증가한다. 방어력 감소 상태의 적을 페르소나 스킬로 공격할 때 공격력 (\d+%)의 염동 속성 대미지를 1회 준다.$"="Increase ATK by $1. When attacking enemies inflicted with DEF down with a Persona skill, deal an additional $2 ATK Psy damage."
+
+Archangel
+r:"^숭고한 빛(.*)$"="Sublime Brilliance $1"
+r:"^효과 명중이 (\d+%) 증가한다. 페르소나 스킬 시전 후 (\d+%)의 고정 확률로 자신이 축복 효과 1개를 획득한다. 스킬로 축복 속성 대미지를 줄 시 축복 효과 1개를 추가 획득한다.$"="Increase EHR by $1. After using a Persona skill, there is a $2 fixed chance to gain 1 Bless. If that skill dealt Bless damage, gain 1 additional Bless."
 
 
 
