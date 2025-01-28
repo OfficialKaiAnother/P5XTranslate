@@ -70,5 +70,36 @@ Isis
 r:"^풍요의 앙크(.*)$"="Abundant Anka $1"
 r:"^생명이 (\d+\.\d+%) 증가한다. 치료 효과 부여 시 목표는 다음 턴에서 (.*)턴 동안 공격력 (\d+%)의 생명을 회복한다.$"="Increase HP by $1. After healing, the target will restore $2 ATK as HP at the end of their turn for $3 turns."
 
+----------
+RANK 4
+----------
+Jatayu
+r:"^파공의 금빛 날개(.*)$"="<size\=28>Soaring Golden Wings $1</size>"
+r:"^효과 명중이 (\d+%) 증가한다. 질풍 속성 페르소나 스킬 시전 후 2턴 동안 스킬 목표의 방어력이 (\d+%) 감소한다.$"="Increase EHR by $1. After using Wind skills, decrease the target's DEF by $2 for 2 turns."
+
+Mithras
+r:"^태양의 비호(.*)$"="<size\=28>Burning Sun's Blessing $1</size>"
+r:"^생명이 (\d+\.\d+%) 증가한다. 동료를 목표로 스킬 시전 후, 2턴 동안 방어력이 (\d+\.\d+%) 증가한다. 생명이 (\d+%) 이상일 시 효과가 추가로 (\d+%) 증가한다.$"="Increase HP by $1. When using a skill on an ally, increase their DEF by $2 for 2 turns. If they are above $3 HP, increase the effect by $4."
+
+Hell Biker
+r:"^점화! 폭발(.*)$"="Ignite! Explode! $1"
+r:"^공격력이 (\d+\.\d+%) 증가한다. 필드의 화상 상태인 적이 받는 화염 속성 대미지가 (\d+%) 증가한다.$"="Increase ATK by $1. Enemies inflicted with Burn increase Fire DMG Taken by $2."
+r:"^공격력이 (\d+\.\d+%) 증가한다. 필드의 화상 상태인 적이 받는 화염 속성 대미지가 (\d+%) 증가한다. 자신이 스킬 시전 시 필드에 화상 상태인 적이 1명이 있을 때마다 자신의 공격력이 (\d+%) 증가한다(3회 중첩 가능).$"="Increase ATK by $1. Enemies inflicted with Burn increase Fire DMG Taken by $2. When using a skill, increase ATK by $3 for every enemy inflicted with Burn." 
+
+Unicorn
+r:"^선령의 돌봄(.*)$"="Fairy Taming $1"
+r:"^주는 치료 효과가 (\d+%) 증가한다. 디버프 효과가 없는 동료가 대미지를 받을 때 방어력이 (\d+%) 증가한다.$"="Increase Healing Effect by $1. Increase ally's DEF by $2 if they have no debuff."
+r:"^造成的治療效果提升(\d+%)。使得身上沒有減益效果的同伴受到傷害時防禦力提升(\d+%),造成傷害時攻擊力提升(\d+\.\d+%)。$"="Increase Healing Effect by $1. Increase ally's DEF by $2 and increase ATK by $3 when dealing damage if they have no debuff,"
+
+White Rider
+r:"^종말의 소동(.*)$"="Doom Disturbance $1"
+r:"^효과 명중이 (\d+%) 증가한다. 적에게 페르소나 스킬 시전 시, 목표 적이 주원 효과를 1개 보유할 때마다 1턴 동안 받는 주원 속성 대미지가 (.*) 증가한다(4회 중첩 가능).$"="Increase EHR by $1. After using a Persona skill on enemies, increase their Curse DMG Taken by $2 for 1 turn for every stack of Curse on the enemy, up to 4 stacks."
+
+Anubis
+r:"^영혼의 판관(.*)$"="Judge of Souls $1"
+r:"^공격력이 (\d+\.\d+%) 증가한다. 축복 대미지를 줄 경우 자신이 축복 효과 1~2개를 획득한다. 주원 대미지를 줄 경우 스킬의 메인 목표가 주원 효과 1~2개를 획득한다. 주원 효과가 있는 적을 공격하면 공격력이 (\d+%) 증가한다.$"="Increase ATK by $1. When dealing Bless damage gain 1-2 stack(s) of Bless. When dealing Curse damage the main target gain 1-2 stack(s) of Curse. Increase ATK by $2 when attacking enemies with Curse."
+r:"^공격력이 (\d+\.\d+%) 증가한다. 축복 대미지를 줄 경우 자신이 축복 효과 2개를 획득한다. 주원 대미지를 줄 경우 스킬의 메인 목표가 주원 효과 2개를 획득한다. 주원 효과가 있는 적을 공격하면 공격력이 (\d+\.\d+%) 증가한다.$"="Increase ATK by $1. When dealing Bless damage gain 2 stacks of Bless. When dealing Curse damage the main target gain 2 stacks of Curse. Increase ATK by $2 when attacking enemies with Curse."
+r:"^공격력이 (\d+\.\d+%) 증가한다. 축복 대미지를 줄 경우 자신은 축복 효과 2개를 획득하고, 50%의 고정 확률로 스킬의 메인 목표는 주원 효과 1개를 획득한다. 주원 대미지를 줄 경우 스킬의 메인 목표가 주원 효과 2개를 획득하고, 50%의 고정 확률로 자신은 축복 효과 1개를 획득한다. 주원 효과가 있는 적을 공격하면 공격력이 (\d+%) 증가한다.$"="Increase ATK by $1. When dealing Bless damage gain 2 stacks of Bless and there is a 50% fixed chance to inflict 1 stack of Curse to the main target. When dealing Curse damage the main target gain 2 stacks of Curse and there is a 50% fixed chance for you to gain 1 stack of Bless. Increase ATK by $2 when attacking enemies with Curse."
+
 
 
