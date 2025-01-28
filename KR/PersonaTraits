@@ -1,0 +1,22 @@
+----------
+RANK 1
+----------
+Janosik
+r:"^잔당의 수확(.*)$"="Reaper $1"
+r:"^공격력이 (\d+\.\d+%) 증가한다. 전투 시작 시 적 1명이 『조준』을 획득하며, 모든 동료가 『조준』을 가진 적 공격 시 공격력이 (\d+%) 증가한다.$"="Increase ATK by $1. When allies attack enemies with [Aim], increase ATK by $2."
+r:"^攻擊力提升(\d+\.\d+%)。戰鬥開始時，使1名敵人獲得『瞄準』。所有同伴攻擊帶有『瞄準』的敵人時，攻擊力提升(\d+%)。$"="Increase ATK by $1. At the start of battle, inflict 1 enemy with [Aim]. When allies attack enemies with [Aim], increase ATK by $2."
+r:"^공격력이 (\d+\.\d+%) 증가한다 전투 시작 시 적 1명이 『조준』을 획득하며, 모든 동료가 『조준』을 가진 적 공격 시 공격력이 (\d+%) 증가한다. 자신이 『조준』을 가진 적 공격 시 공격력 (\d+%)의 총격 속성 대미지를 1회 준다.$"="Increase ATK by $1. At the start of battle, inflict 1 enemy with [Aim]. When allies attack enemies with [Aim], increase ATK by $2. When you attack enemies with [Aim], deal an additional $3 ATK Gun damage to them."
+r:"^공격력이 (\d+\.\d+%) 증가한다. 전투 시작 시 1명의 적이 『조준』을 획득하며, 모든 동료가 『조준』을 보유한 적 공격 시 공격력이 (\d+%) 증가한다. 『조준』을 보유한 적의 방어력이 (\d+%) 추가 감소한다. 자신이 『조준』을 가진 적 공격 시 공격력 (\d+%)의 총격 속성 대미지를 1회 준다.$"="<size\=22>Increase ATK by $1. At the start of battle, inflict 1 enemy with [Aim]. When allies attack enemies with [Aim], increase ATK by $2. Additionally decrease DEF by $3 for enemies with [Aim]. When you attack enemies with [Aim], deal an additional $4 ATK Gun damage to them.</size>"
+
+Succubus
+r:"^황홀한 속삭임(.*)$"="Intoxicating Murmur $1"
+r:"^공격력이 (\d+\.\d+%) 증가한다. 동료를 목표로 스킬 시전 시 1턴 동안 동료의 크리티컬 확률이 (\d+\.\d+%) 증가한다.$"="Increase ATK by $1. When using a skill on an ally, increase their CRIT Rate by $2 for 1 turn."
+
+Genbu
+r:"^북쪽 땅의 얼음(.*)$"="Arctic Chill $1"
+r:"^방어력이 (\d+\.\d+%) 증가한다. 동결 상태인 적에게 받는 대미지가 (\d+%) 감소한다. 동결 상태인 적에 대한 공격력이 (\d+%) 증가한다.$"="Increase DEF by $1. Decrease DMG Taken by $2 from enemies inflicted with Freeze. Increase ATK by $3 to enemies inflicted with Freeze."
+
+
+
+
+
