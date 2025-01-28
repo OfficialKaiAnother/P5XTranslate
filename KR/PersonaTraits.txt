@@ -35,6 +35,40 @@ Archangel
 r:"^숭고한 빛(.*)$"="Sublime Brilliance $1"
 r:"^효과 명중이 (\d+%) 증가한다. 페르소나 스킬 시전 후 (\d+%)의 고정 확률로 자신이 축복 효과 1개를 획득한다. 스킬로 축복 속성 대미지를 줄 시 축복 효과 1개를 추가 획득한다.$"="Increase EHR by $1. After using a Persona skill, there is a $2 fixed chance to gain 1 Bless. If that skill dealt Bless damage, gain 1 additional Bless."
 
+----------
+RANK 3
+----------
+Setanta
+r:"^살육의 전사(.*)$"="Bloodthirsty Warrior $1"
+r:"^크리티컬 효과가 (.*) 증가한다. 디버프 상태의 적 공격 시 공격력이 (.*) 증가한다. 디버프 상태인 적에게 대미지를 준 후 1턴 동안 모든 동료의 공격력이 (.*) 증가한다.$"="Increase CRIT DMG by $1. Increase ATK by $2 when attacking enemies inflicted with debuffs. After dealing damage to enemies inflicted with debuffs, increase all allies' ATK by $3 for 1 turn."
+
+Jikokuten
+r:"^혜토의 동쪽(.*)$"="Wisdom of the East $1"
+r:"^방어력이 (\d+\.\d+%) 증가한다. 동료를 목표로 스킬 시전 시 2턴 동안 메인 목표의 공격력이 (.*) 증가한다. 목표의 생명이 (.*) 미만일 시 해당 효과는 (.*)까지 증가한다.$"="Increase DEF by $1. When using a skill on allies, increase the main target's ATK by $2 for 2 turns, increase this effect to $4 when the target's HP is below $3."
+
+Shiki-Ouji
+r:"^기세의 종이접기 사마(.*)$"="Lively Shikigami $1"
+r:"^방어력이 (\d+\.\d+%) 증가한다. 대미지를 받을 시 방어력이 (\d+%) 증가하고 영구적으로 지속되며, 최대 4회까지 중첩된다.$"="Increase DEF by $1. After taking damage, increase DEF by $2 permanently, up to 4 stacks."
+
+Lamia
+r:"^아름다운 탐욕(.*)$"="Gorgeous Greed $1"
+r:"^효과 명중이 (\d+%) 증가한다. 화상 효과를 부여할 때 효과 명중이 (\d+%) 증가한다. 화상 효과 부여 후 2턴 동안 모든 동료의 공격력이 (\d+%) 증가한다.$"="Increase EHR by $1. Increase EHR by $2 when inflicting Burn. After inflicting Burn, increase all allies' ATK by $3 for 2 turns."
+
+Ame-no-Uzume
+r:"^전율하는 신락(.*)$"="Trembling Kagura $1"
+r:"^효과 명중이 (\d+%) 증가한다. 감전 효과 부여 시 모든 동료의 크리티컬 확률이 2턴 동안 (.*) 증가한다.$"="Increase EHR by $1. After inflicting Shock, increase all allies' CRIT Rate by $2 for 1 turn."
+
+Neko Shogun
+r:"^건어물 사주겠다옹(.*)$"="Have a Dried Fish $1"
+r:"^효과 명중이 (\d+%) 증가한다. 전투 시작 시 2턴 동안 모든 동료의 효과 명중이 (\d+%) 증가하고, 효과 명중이 가장 높은 동료의 효과 명중이 (\d+%) 추가 증가한다.$"="Increase EHR by $1. At the start of battle, increase all allies' EHR by $2, increase the ally with the highest EHR by $3 EHR for 2 turns."
+
+Principality
+r:"^통치 능력(.*)$"="Power to Rule $1"
+r:"^방어력이 (\d+\.\d+%) 증가한다. 페르소나 스킬로 치료 효과 부여 후 2턴 동안 모든 동료의 방어력이 (.*) 증가한다. 최대 2회까지 중첩된다.$"="Increase DEF by $1. After healing with a Persona skill, increase all allies' DEF by $2 for 2 turns."
+
+Isis
+r:"^풍요의 앙크(.*)$"="Abundant Anka $1"
+r:"^생명이 (\d+\.\d+%) 증가한다. 치료 효과 부여 시 목표는 다음 턴에서 (.*)턴 동안 공격력 (\d+%)의 생명을 회복한다.$"="Increase HP by $1. After healing, the target will restore $2 ATK as HP at the end of their turn for $3 turns."
 
 
 
