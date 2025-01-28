@@ -740,8 +740,8 @@ SP 회복 효율이 3.1% 증가한다.=SP Recovery Boost increased by 3.1%.
 
 +++ ----- Unsorted Skills ----- +++
 불렛 타임=Bullet Time
-흑백무계=Monochrome
-궁지 반격=Counterattack
+흑백무계=<size\=20>Desire for Life Shell</size>
+궁지 반격=Tiger Shot
 피어나는 얼음=Blooming Ice
 차가운 칼날=Cold Blade
 매서운 겨울=Bitter Winter
