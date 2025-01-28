@@ -149,6 +149,45 @@ Pazuzu
 r:"^영겁의 저주(.*)$"="Eternal Curse $1"
 r:"^공격력이 (\d+\.\d+%) 증가한다. 페르소나 스킬로 적을 공격하는 경우 (\d+%)의 고정 확률로 메인 목표인 적이 주원 효과를 (\d+)중첩 획득한다. 또한 주원 대미지를 (\d+)회 결산한다.$"="Increase ATK by $1. After attacking enemies with a Persona skill, there is a $2 fixed chance to inflict $3 stack of Curse to the main taget. Immediately triggers all of the main target's Curse stacks."
 
+----------
+RANK 6
+----------
+Surt
+r:"^맹렬한 불길의 군주(.*)$"="Inferno Monarch $1"
+r:"^효과 명중이 (\d+\.\d+%) 증가한다. 화상 효과를 부여할 때 효과 명중이 (\d+%) 증가한다. 생명이 50% 이상인 적에 대한 해당 효과가 (\d+%) 추가 증가한다.$"="Increase EHR by $1. Increase EHR by $2 when inflicting Burn. Increase the effect by $3 when the enemy is above 50% HP."
+
+Skadi
+r:"^그림자의 계약(.*)$"="Shadow Contract $1"
+r:"^효과 명중이 (\d+\.\d+%) 증가한다. 이상 효과를 준 후 자신의 공격력이 (.*), 크리티컬 확률이 (.*) 증가한다. 효과는 2턴 동안 지속된다. 해당 이상 상태가 정신 이상일 시 효과가 (.*) 증가한다.$"="Increase EHR by $1. After inflicting Status Effects, increase ATK by $2 and CRIT Rate by $3 for 2 turns. If that effect is a Mental Ailment, increase this effect by $3."
+
+Seth
+r:"^타락한 신력(.*)$"="Fallen Divine Power $1"
+r:"^크리티컬 효과가 (\d+\.\d+%) 증가한다. 다운시킨 후 (.*)턴 동안 자신의 공격력이 (.*) 증가하고, 1턴 동안 모든 동료가 주는 대미지가 (.*) 증가한다.$"="Increase CRIT DMG by $1. After knocking down an enemy, increase ATK by $2 for 2 turns and increase all allies' DMG Dealt by $3 for 1 turn."
+
+Baphomet
+r:"^악마의 주조(.*)$"="Demonic Melter $1"
+r:"^공격력이 (\d+\.\d+%) 증가한다. 페르소나 스킬을 시전해 화상 상태인 적에게 대미지를 준 후, 1턴 동안 모든 적이 받는 화염 속성 대미지가 (.*) 증가한다.$"="<size\=26>Increase ATK by $1. After dealing damage to enemies inflicted with Burn, increase all enemies' Fire DMG Taken by $2 for 1 turn.</size>"
+
+Norn
+r:"^운명의 풍습(.*)$"="Wind of Fate $1"
+r:"^방어력이 (\d+\.\d+%) 증가한다. 풍습 효과 부여 후 2턴 동안 풍습 효과를 입은 적의 방어력이 (.*) 감소한다.$"="Increase DEF by $1. After inflicting Winded, decrease DEF of the inflicted enemies by $2 for 2 turns."
+r:"^방어력이 (\d+\.\d+%) 증가한다. 풍습 효과 부여 후 풍습 효과를 입은 적의 방어력이 (.*) 감소하고 자신의 방어력이 (.*) 증가한다. 효과는 2턴 동안 지속된다.$"="Increase DEF by $1. After inflicting Winded, decrease DEF of the inflicted enemies by $2 and increase your DEF by $3 for 2 turns."
+
+Parvati
+r:"^지모신의 비호(.*)$"="<size\=26>Mother Earth's Protection $1</size>"
+r:"^생명이 (.*) 증가한다. 치료 효과를 준 후, (.*)턴 동안 치료 효과를 입은 동료의 공격력이 (.*), 방어력이 (.*) 증가한다.$"="<size\=28>Increase HP by $1. After using Healing skills, increase the healed allies' ATK by $3 and DEF by $4 for $2 turns.</size>"
+
+Titania
+r:"^달의 요괴의 소란(.*)$"="<size\=25>Fairy Queen's Disturbance $1</size>"
+r:"^주는 치료 효과가 (.*) 증가한다. 페르소나 스킬로 치료 효과 부여 후 (.*)의 기본 확률로 임의의 적 1명을 임의의 한가지 원소 이상 상태에 빠뜨린다. 효과는 2턴 동안 지속된다,$"="Increase Healing Effect by $1. After healing with a Persona skill, there is a $2 base chance to inflict 1 random enemy with a random Elemental Ailment."
+@UNUSED r:"^造成的治療效果提升(\d+%)。釋放{{A}}技能造成治療效果後，有(.*)基礎機率使1名隨機敵人陷入一種隨機元素異常狀態，效果持續2回合。$"="Increase Healing Effect by $1. After healing with a Persona skill, there is a $2 base chance to inflict 1 random enemy with a random Elemental Ailment for 2 turns."
+r:"^주는 치료 효과가 (.*) 증가한다. 페르소나 스킬로 치료 효과 부여 후 (.*)의 기본 확률로 임의의 적 1명을 임의의 한가지 원소 이상 상태에 빠뜨리고, 방어력이 (.*) 감소한다. 효과는 2턴 동안 지속된다.$"="Increase Healing Effect by $1. After healing with a Persona skill, there is a $2 base chance to inflict 1 random enemy with a random Elemental Ailment and decrease their DEF by $3 for 2 turns."
+
+Melchizedek
+r:"^인왕의 심판(.*)$"="<size\=20>King of Righteousness Judgement $1</size>"
+@NON WORKING r:"^공격력이 (\d+\.\d+%) 증가한다. 자신이 스킬 시전 시, (\d+)턴 동안 모든 동료의 축복 중첩수에 따라 주는 축복 대미지가 (\d+%) 증가한다((\d+)회 중첩 가능).$"="Increase ATK by $1. When using a skill, increase Bless DMG by $2 for $4 turns based on the number of Bless stacks on all allies, up to $3 stack."
+@NON WORKING r:"^공격력이 (\d+\.\d+%) 증가한다. 자신이 스킬 시전 시, (\d+%)턴 동안 모든 동료의 축복 중첩수에 따라 주는 축복 대미지가 (\d+%) 증가한다((\d+%)회 중첩 가능).$"="Increase ATK by $1. When a using a skill, increase Bless DMG by $2 for $4 turns based on the number of Bless stacks on all allies, up to $3 stack. When using a skill, increase ATK for allies with not less than $5 stacks of Bless by $6 for 2 turns."
+
 
 
 
