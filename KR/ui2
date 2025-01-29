@@ -1,0 +1,192 @@
+-------------------------------
+---- I. System / Options ------
+-------------------------------
+
+----------
+Graphics
+----------
+높음=High
+중간=Medium
+낮음=Low
+최대=Extreme
+자동=Auto
+
+전체 화면=Fullscreen
+모니터=Display
+해상도=Resolution
+동적 해상도=Dynamic Resolution
+프레임 설정=Frame Rate
+렌더링 품질=Rendering Quality
+음영 품질=Shadow Quality
+특수 효과 품질=Special Effects Quality
+스티커 디테일=Texture Quality
+디테일 단계=Level of Detail
+앤티 앨리어싱=Anti-Aliasing
+렌더링 비율=Rendering Scale
+애프터이펙트=Post Processing Quality
+파티원 동행=Team Following
+피사체 심도 블러=Depth of Field
+십자 광점=Cross Flare
+앰비언트 어클루전=Ambient Inclusion
+공간 반사=Spatial Reflections
+빛 설정=Bloom
+체적 안개=Volumetric Fog
+체적 조명=Volumetric Lighting
+햇빛 조사=Sun Shaft
+수직 동기화=Vsync
+
+
+----------
+Volume
+----------
+볼륨 설정=Audio
+메인 볼륨=Master Volume
+음악 볼륨=BGM Volume
+효과음 볼륨=SE Volume
+더빙음 볼륨=Voice Volume
+주변 볼륨=Ambiance Volume
+
+
+----------
+Code Redemption
+----------
+교환코드를 입력하세요=Redeem Code here
+교환코드=Redeem Code
+
+
+
+----------
+Error UI
+----------
+이세계의 방해로 앱이 정상적으로 작동되지 않습니다=The app is not functioning correctly due to the Metaverse.
+
+----------
+Mail
+----------
+모두 받기=Claim All
+일괄 삭제=Delete All
+
+----------
+Quest
+----------
+서브=Side
+메인=Main
+전체=All
+
+----------
+Shop
+----------
+한정 구매=Limit-
+r:"^(\d+)일 후 종료$"="Ends in $1 Day(s)"
+
+r:"^의뢰, 쇼핑대축제 등 보상 또는 <link\="mqm"><u>일일 소원 복주머니</u></link> 구매 시 카구라 방울 획득 가능"="Obtain Kagura Bells by completing quests, events or purchasing the <link\="mqm"><u>Daily Wish Lucky Pouch</u></link>."
+
+----------
+Consumable
+----------
+커스텀 무기 모듈=Custom Weapon Module
+커스텀 무기 장치=Custom Weapon Device
+기념품=Souvenir
+에너지 음료=Energy Drink
+에스프레소=Espresso
+커피 사탕=Coffee Candy
+우주의 잠언=Cosmic Proverb
+우주의 종장=Cosmic Finale
+괴도 지식 조각 파편=Phantom Thief Fragment
+특제 볶음면=Specialty Stir-Fried Noodles
+해산물 볶음밥=Seafood Fried Rice
+한정 멜론빵=Limited Melon Pan.
+
+----------
+Materials
+----------
+미래의 운명=Future Fate
+정해진 운명=Destiny Fate
+영롱한 머큐리=Gleaming Mercury
+별가루 병·하급=Stardust Bottle - Lesser
+별가루 병·고급=Stardust Bottle - Advanced
+명성 수정구·하급=Prestige Orb - Lesser
+명성 수정구·고급=Prestige Orb - Advanced
+별자리 방울=Constellation Bell
+전기 단장=Bio Summary
+전기 전서=Bio Scripture
+전기 조각=Bio Fragment
+붓꽃의 깊은 향기=Deep Scent of Iris
+붓꽃의 진한 향기=Rich Scent of Iris
+붓꽃의 향기=Scent of Iris
+영혼석=Soulstone
+주인공 경험치=Protag EXP
+
+
+----------
+Location
+----------
+r:"^절제를 잃은 길 에어리어 (\d+)"="Chemdah: Area $1"
+r:"^조화를 잃은 길 에어리어 (\d+)"="Aiyatsbus: Area $1"
+r:"^사상을 잃은 길 에어리어 (\d+)"="Qimranut: Area $1"
+r:"^역 광장"="Shibuya Station"
+r:"^지하철역"="Subway"
+r:"^연락교"=Shibuya Walkway"
+r:"^지하 쇼핑몰"="Underground Mall"
+r:"^시부야 상점가"="Central Street"
+r:"^골목"="Alleyway"
+r:"^학교 정문=Main Entrance
+r:"^시모키타자와역=Shimokitazawa Station
+r:"^학교 옥상"="School Roof
+r:"^학교 3층"="3rd Floor"
+r:"^학교 2층"="2nd Floor"
+r:"^학교 1층"="1st Floor"
+r:"^산책로"="Pathway"
+r:"^유흥가"="Redlight District"
+r:"^시로사토 해변"="Shirosato Beach"
+r:"^조시가야"="Zoshigaya"
+r:"^코카츠 고교  중정"="Kokatsu High School"
+r:"^자택  침실"="Bedroom"
+r:"^자택  거실"="Living Room"
+r:"^카페"="Cafe"
+
+
+----------
+Teleport Activities
+----------
+
+캡슐 자판기·신주쿠=<size\=28>Gacha - Shinjuku
+캡슐 자판기·시부야=<size\=28>Gacha - Shibuya
+
+캡슐 자판기·조시가야=<size\=28>Gacha - Zoshigaya
+캡슐 자판기·기치조지=<size\=28>Gacha - Kichijoji
+
+재배=Garden
+작업대=Workbench
+요리=Cooking
+옷장=Closet
+r:"^진열장$"="Display"
+타케미 진료소=Takemi's Clinic
+밀리터리 숍=Untouchable
+인형 뽑기·아키하바라=Crane Game - Akihabara
+야구 연습장=Batting Cage
+낚시=Fishing Spot
+동아리 게시판=Club Board
+중고 잡화점=Thrift Store
+꽃집=Florist
+슈퍼마켓=Supermarket
+진열 구역·1층=Display Plush - 1st floor
+진열 구역·2층=Display Plush - 2nd floor
+
+----------
+Dialogue Choices
+----------
+이치가야 나가기=Leave Ichigaya
+수산물 판매=Sell Fish
+낚시 상점=Fishing Store
+도전 모드=Challenge Mode
+떠난다=Leave
+특기가 있나요?=What's your specialty?
+인사=Greet
+조용히 듣는다=Quietly Listen
+나가기=Exit
+상점=Shop
+그만두기=Cancel
+들어가자=Go inside
+
+
