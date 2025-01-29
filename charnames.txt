@@ -1,0 +1,31 @@
+----------
+Name Interactions
+----------
+
+r:"^중<color\=#ff0000ff>고</color> 잡화점"="Th<color\=#ff0000ff>rif</color>t Store"
+r:"^야<color\=#ff0000ff>구</color> 연습장"="Bat<color\=#ff0000ff>ti</color>ng Cages"
+r:"^주<color\=#ff0000ff>민</color>들의 대화 듣기"="Lis<color\=#ff0000ff>te</color>n"
+r:"^구<color\=#ff0000ff>축</color> 아파트"="Apa<color\=#ff0000ff>rt</color>ments"
+r:"^신<color\=#ff0000ff>경</color> 쓰이는 건물"="Int<color\=#ff0000ff>er</color>esting Building"
+r:"^정<color\=#ff0000ff>형</color>외과 병원"="Ortho<color\=#ff0000ff>pe</color>dics"
+r:"^골<color\=#ff0000ff>목</color> 깊은 곳"="Fur<color\=#ff0000ff>th</color>er In"
+r:"^타<color\=#ff0000ff>케</color>미 진료소"="Ta<color\=#ff0000ff>ke</color>mi's Clinic"
+r:"^지<color\=#ff0000ff>하</color>철역"="Su<color\=#ff0000ff>bw</color>ay Station"
+
+----------
+Character Names
+----------
+r:"^마<color\=#ff0000ff>루</color>치무"="Mar<color\=#ff0000ff>th</color>ym"
+r:"^코<color\=#ff0000ff>토</color>네 몽타뉴·백조"="Ko<color\=#ff0000ff>to</color>ne Montagne - Swan"
+r:"^팬<color\=#ff0000ff>서</color>&아라이 모토하"="Pa<color\=#ff0000ff>nt</color>her & Arai Motoha"
+r:"^카<color\=#ff0000ff>미</color>야마 레오"="R<color\=#ff0000ff>e</color>o Kamiyama"
+r:"^토<color\=#ff0000ff>미</color>야마 카요"="K<color\=#ff0000ff>ay</color>o Tomiyama"
+r:"^바<color\=#ff0000ff>이</color>올렛"="Vi<color\=#ff0000ff>ol</color>et"
+r:"^노<color\=#ff0000ff>게</color> 토모코"="To<color\=#ff0000ff>mo</color>ko Noge"
+r:"^미<color\=#ff0000ff>야</color>시타 미나미"="Mi<color\=#ff0000ff>na</color>mi Miyashita"
+r:"^리<color\=#ff0000ff> </color>야오링"="Yao<color\=#ff0000ff>li</color>ng Li"
+r:"^리<color\=#ff0000ff> </color>야오링&시이나 유우미"="Yao<color\=#ff0000ff>li</color>ng Li & Yumi Shiina"
+r:"^나<color\=#ff0000ff>가</color>오 치즈코"="Chi<color\=#ff0000ff>zu</color>ko Nagao"
+r:"^아<color\=#ff0000ff>라</color>이 모토하·여름="Mo"<color\=#ff0000ff>to</color>ha Arai - Summer"
+후<color\=#ff0000ff>지</color>카와 유키미=Yu<color\=#ff0000ff>ki</color>mi Fujikawa
+스<color\=#ff0000ff>미</color> 토시야=Tos<color\=#ff0000ff>hi</color>ya Sumi
