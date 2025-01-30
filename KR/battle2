@@ -1,1 +1,29 @@
 
+----------
+Skills
+----------
+
+
+----------
+Chord - Ayaka Sakai
+----------
+
+@Passionate Singing
+r:"^<color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 전격 속성 대미지를 준다. <link\="s\|190"><u>『열성 관객』</u></link>이 있는 경우, <link\="s\|190"><u>『열성 관객』</u></link>이 스킬 메인 목표에게 추가로 『열성 관객』 공격력 (\d+\.\d+%)의 전격 속성 추가 대미지를 1회 준다.$"="Deals $1 ATK Electric damage to <color\=#FFFF00>all</color> enemies. If there is a <link\="s|190"><u>[Loyal Listener]</u></link>, the <link\="s|190"><u>[Loyal Listener]</u></link> deals an additional $2 ATK Electric damage based on their own ATK to the main target."
+
+@Improvised Solo
+r:"^동료 <color\=#FFFF00>1명</color>을 선택하여 <link\="s\|190"><u>『열성 관객』</u></link>으로 만들면 3턴 동안 <link\="s\|190"><u>『열성 관객』</u></link>의 공격력이 (\d+) 증가한다. <link\="s\|190"><u>『열성 관객』</u></link>은 동시에 1명만 보유할 수 있다."="Selects <color\=#FFFF00>1</color> ally to become the <link\="s|190"><u>[Loyal Listener]</u></link>，increases their ATK by $1 for 3 turns. There can only be 1 <link\="s|190"><u>[Loyal Listener]</u></link> at a time."
+
+@Finale: Range Unleashed
+r:"^동료 <color\=#FFFF00>1명</color>을 선택하여 즉시 HIGHLIGHT 스킬을 시전한다. 동시에 이번 HIGHLIGHT의 대미지가 (\d+\.\d+%) 증가한다.$"="Selects <color\=#FFFF00>1</color> ally, immediately uses their HIGHLIGHT and increase that HIGHLIGHT damage by $1"
+
+
+----------
+Violet - Kasumi Yoshizawa
+----------
+
+@Glimmer of Night
+r:"^액티브로 해당 스킬 사용 시 <color\=#FFFF00>1명의 적</color>에게 공격력 (\d+\.\d+%)의 축복 속성 대미지를 주고 자신은 <link\="s\|215"><u>춤사위</u></link> 『브레이브 스텝』을 획득한다\((\d+)회 중첩 가능\). 댄스 파트너가 해당 스킬 사용 시 스킬 효과는 <color\=#FFFF00>1명의 적</color>에게 공격력 (\d+\.\d+%)의 축복 속성 대미지를 주고, 자신은 <link\="s\|215"><u>춤사위</u></link> 『브레이브 스텝』을 획득한다\((\d+)회 중첩 가능\).$"="When you manually use this skill, deals $1 ATK Bless damage to <color\=#FFFF00>1 enemy</color>, and gains <link\="s|215"><u>Posture</u></link> [Brave Step], up to a $2 stack. When Dance Partner triggers this skill, deals $3 ATK Bless damage to <color\=#FFFF00>1 enemy</color>, and gains <link\="s|215"><u>Posture</u></link> [Brave Step], up to a $4 stack."
+
+@Dancing In Hand
+r:"^$"="Selects <color\=#FFFF00>1 ally</color> to become the [Dance Partner] for $1 turn. Increases own and [Dance Partner] ATK by $2 for $3 turns. Gains <link\="s|215"><u>Posture</u></link> [Agile Step], up to $4 stack. After [Dance Partner] use a Persona skill, immediately use [Glimmer of Night] on 1 random enemy (If [Dance Partner] used a skill that target an enemy, change the main target of [Glimmer of Night] to that enemy). There can only be 1 [Dance Partner]."
