@@ -3,6 +3,70 @@
 Skills
 ----------
 
+(Boss Skill Names)
+----------
+Boss: Shadow Katayama
+----------
+
+r:"^귀신락"="Demonic Decent"
+r:"^격정의 날개 칼날"="Wings of Fury"
+r:"^노기"="Nogi"
+r:"^광란의 코칭"="Rage-Fueled Guidance"
+야성의 포효=Thunderous Roar
+분노의 벼락=Thunderous Wrath
+기간토마키아=Gigantomachia
+히트라이저=Heat Riser
+
+----------
+Boss: Shadow Akashi
+----------
+r:"^파멸적 자문"="Destructive Counsel"
+r:"^포지션"="Position"
+r:"^폭력적 코칭"="Abusive Mentorship"
+r:"^자문·정지"="Halt-Counsel"
+r:"^폭식·절멸의 레이저"="Gluttony - Annihilation Laser"
+r:"^폭식·폭격"="Gluttony - Bombardment"
+r:"^폭식·소탕 레이저"="Gluttony - Purging Laser"
+r:"^블랙홀 쇼크"="Black Hole Laser"
+r:"^무차별 사냥"="Savage Hunt"
+r:"^폭식·치명적인 타격"="Gluttony - Fatal Strike"
+r:"^소화"="Assimilation"
+r:"^만물 탐식"="Eternal Hunger"
+
+----------
+Boss: Shadow Miyazawa
+----------
+
+r:"^주인공의 트릭"="Hero's Gambit"
+r:"^주인공의 참살"="Hero's Execution"
+r:"^정직한 징계"="Honest Discipline"
+대역의 시간=Stunt Double
+주인공의 역날=Hero's Revenge
+일도류·몽타주=Single-Sword Style: Montage
+오의·명성난무=Secret Technique: Dance of Vanity
+일도류·인왕 자세=Single-Sword Style: Benevolent Stance
+클로즈업 회선참=Precision Slash
+사도류·일인성군=Sword Style - One-Man Army
+무도류·광노=Martial Style - Berserker Rage
+
+----------
+Boss: Shadow Kiuchi
+----------
+방망이 공격=Club Smash
+고속 구격=Speedy Strike
+질풍 구격=Whirlwind Shot
+허리케인 산란=Cyclone Storm
+데스바운드=Deathbound
+폭발 숭배구=Spike of Lust
+회전 숭배구=Spinning Spike of Lust
+패한 적이 없어!=You can't lose!
+
+
+----------
+Thieves Skills
+----------
+
+
 
 ----------
 Chord - Ayaka Sakai
