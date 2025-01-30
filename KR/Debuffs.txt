@@ -1,1 +1,16 @@
 
+----------
+Buffs/Debuffs
+----------
+
+공<color\=#000000>격</color>력 증가=At<color\=#000000>ta</color>ck Up
+
+
+
+동결=Frozen
+방사선=Radiation
+뒤흔들기=Tremor
+섬멸=Annihilate
+핵열 대미지 증가=Nuclear DMG Boost
+전술=Tactics
+리듬=Rhythm
