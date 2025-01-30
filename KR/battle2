@@ -69,6 +69,11 @@ Thieves Skills
 
 
 ----------
+Skills
+----------
+
+
+----------
 Chord - Ayaka Sakai
 ----------
 
@@ -90,4 +95,23 @@ Violet - Kasumi Yoshizawa
 r:"^액티브로 해당 스킬 사용 시 <color\=#FFFF00>1명의 적</color>에게 공격력 (\d+\.\d+%)의 축복 속성 대미지를 주고 자신은 <link\="s\|215"><u>춤사위</u></link> 『브레이브 스텝』을 획득한다\((\d+)회 중첩 가능\). 댄스 파트너가 해당 스킬 사용 시 스킬 효과는 <color\=#FFFF00>1명의 적</color>에게 공격력 (\d+\.\d+%)의 축복 속성 대미지를 주고, 자신은 <link\="s\|215"><u>춤사위</u></link> 『브레이브 스텝』을 획득한다\((\d+)회 중첩 가능\).$"="When you manually use this skill, deals $1 ATK Bless damage to <color\=#FFFF00>1 enemy</color>, and gains <link\="s|215"><u>Posture</u></link> [Brave Step], up to a $2 stack. When Dance Partner triggers this skill, deals $3 ATK Bless damage to <color\=#FFFF00>1 enemy</color>, and gains <link\="s|215"><u>Posture</u></link> [Brave Step], up to a $4 stack."
 
 @Dancing In Hand
-r:"^$"="Selects <color\=#FFFF00>1 ally</color> to become the [Dance Partner] for $1 turn. Increases own and [Dance Partner] ATK by $2 for $3 turns. Gains <link\="s|215"><u>Posture</u></link> [Agile Step], up to $4 stack. After [Dance Partner] use a Persona skill, immediately use [Glimmer of Night] on 1 random enemy (If [Dance Partner] used a skill that target an enemy, change the main target of [Glimmer of Night] to that enemy). There can only be 1 [Dance Partner]."
+r:"^(\d+)턴 동안 <color\=#FFFF00>1명의 동료</color>를 선택해 『댄스 파트너』로 삼는다. 자신과 『댄스 파트너』의 공격력이 (\d+)턴 동안 (\d+\.\d+%) 증가한다. 자신이 <link\="s\|215"><u>춤사위</u></link> 『스위프트 스텝』을 획득한다\((\d+)회 중첩 가능\). 『댄스 파트너』가 페르소나 스킬을 사용하면 자신이 즉시 임의 적 목표에게 『어둠 속 빛』을 1회 시전한다\(『댄스 파트너』의 스킬 목표가 적일 경우, 스킬 메인 목표를 향해 『어둠 속 빛』을 1회 시전함)\. 『댄스 파트너』는 동시에 1명만 존재할 수 있다.$"="Selects <color\=#FFFF00>1 ally</color> to become the [Dance Partner] for $1 turn. Increases own and [Dance Partner] ATK by $3 for $2 turns. Gains <link\="s|215"><u>Posture</u></link> [Agile Step], up to $4 stack. After [Dance Partner] use a Persona skill, immediately use [Glimmer of Night] on 1 random enemy (If [Dance Partner] used a skill that target an enemy, change the main target of [Glimmer of Night] to that enemy). There can only be 1 [Dance Partner]."
+
+r:"^(\d+)턴 동안 <color\=#FFFF00>1명의 동료</color>를 선택해 『댄스 파트너』로 삼는다. 자신과 『댄스 파트너』의 공격력이 (\d+)턴 동안 (\d+\.\d+%) 증가한다. 자신이 <link\="s\|215"><u>춤사위</u></link> 『스위프트 스텝』을 획득한다\((\d+)회 중첩 가능\). 『댄스 파트너』가 페르소나 스킬을 사용하면 자신이 즉시 임의 적 목표에게 『어둠 속 빛』을 1회 시전한다\(『댄스 파트너』의 스킬 목표가 적일 경우, 스킬 메인 목표를 향해 『어둠 속 빛』을 1회 시전함\). 『댄스 파트너』는 동시에 1명만 존재할 수 있다.$"="Selects <color\=#FFFF00>1 ally</color> to become the [Dance Partner] for $1 turn. Increases own and [Dance Partner] ATK by $3 for $2 turns. Gains <link\="s|215"><u>Posture</u></link> [Agile Step], up to $4 stack. After [Dance Partner] use a Persona skill, immediately use [Glimmer of Night] on 1 random enemy (If [Dance Partner] used a skill that target an enemy, change the main target of [Glimmer of Night] to that enemy). There can only be 1 [Dance Partner]."
+
+@Blooming Heart
+r:"^<color\=#FFFF00>1명의 적</color>에게 공격력 (\d+\.\d+%)의 축복 속성 대미지를 준다. 해당 스킬을 사용할 때 자신이 『<link\="s\|217"><u>가면무도회</u></link>』 상태일 경우 스킬 대미지가 (\d+%) 증가하고 자신의 크리티컬 효과가 (\d+\.\d+%) 증가한다.$"="Deals $1 ATK Bless damage to <color\=#FFFF00>1 enemy</color>. If you are in [<link\="s|217"><u>Masquerade</u></link>], additionally increases skill damage by $2 and CRIT DMG by $3."
+
+----------
+RLD - Yaoling Li
+----------
+
+
+@New Year's Blessing
+r:"^<color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 화염 속성 대미지를 주고, (\d+)턴 동안 자신의 크리티컬 확률이 (\d+%) 증가한다. 『불꽃놀이 유성』이 강화되어, (\d+)턴 동안 추가로 공격력 (\d+\.\d+%)의 화염 속성 대미지를 준다.$"="Deals $1 ATK Fire damage to <color\=#FFFF00>all</color> enemies and increases own CRIT Rate by $3 for $2 turns. Upgrades [Fiery Shooting Star]: Additionally deals $5 ATK Fire damage, this upgrade lasts for $4 turn."
+
+@Firecracker Song
+Not WORKING CURRENTLY @r:"^$"="Deals $1 ATK Fire damage to <color\=#FFFF00>all</color> enemies, with a $2 base chance to inflict the targets with Burn and [Year Fire] for $3 turns. Upgrades [Fiery Shooting Star]: There is a $4 base chance to inflict the targets with [Year Fire], this upgrade lasts for $5 turn.\n[Year Fire]: Take $6 ATK Fire damage for $7 turns, up to $8 stacks."
+
+
+
