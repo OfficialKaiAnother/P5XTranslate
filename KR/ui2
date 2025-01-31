@@ -190,3 +190,301 @@ Dialogue Choices
 들어가자=Go inside
 
 
+
+----------
+UI - Stats
+----------
+
+공격력=ATK
+생명=HP
+방어력=DEF
+속도=SPD
+SP 회복=SP Recovery
+대미지 보너스=DMG Bonus
+관통=PEN
+크리티컬 확률=Crit Rate
+크리티컬 효과=Crit DMG
+주원 대미지=Curse DMG+
+만능 대미지=Almighty DMG+
+축복 대미지=Bless DMG+
+핵열 대미지=Nuke DMG+
+염동 대미지=Psy DMG+
+질풍 대미지=Wind DMG+
+전격 대미지=Electric DMG+
+빙결 대미지=Ice DMG+
+화염 대미지=Fire DMG+
+총격 대미지=Gun DMG+
+물리 대미지=Phys DMG+
+효과 명중=EHR
+효과 저항=Effect Resistance
+내성 저항=Immunity RES
+내성 관통=Immunity PEN
+약점 저항=Weakness RES
+약점 대미지=Weakness DMG
+대미지 감면=DMG Reduction
+치료 효과=Healing Bonus
+받는 치료 효과=Incoming Healing Bonus
+실드 효과=Shield Bonus
+받는 실드 효과=Incoming Shield Bonus
+
+배율: =DMG Scale: 
+총알 수: =Ammo: 
+기본 크리티컬 확률: =Default Crit Rate: 
+명중률: =Accuracy:
+
+
+
+
+
+----------
+UI - Profile
+----------
+마음의 바다 시련=<size\=23>Sea of Souls</size>
+낙원=Paradise
+조작=Operation
+유저 신고=Report a User
+명함 변경=<size\=22>Change Profile Card
+프레임 변경=<size\=28>Change Icon Frame
+프로필 변경=<size\=28>Change Profile Icon
+ID 복사=Copy User ID
+상태 메시지=<size\=24>Edit Status Message
+이름 변경=<size\=26>Change Name
+배지 변경=<size\=26>Change Badges
+차단하기=Block
+친구 삭제=Delete a Friend
+상태 메시지가 없습니다=No Status Messages
+도시 생활 일수=Days in the City
+
+
+
+
+----------
+UI - Social Stats
+----------
+지식=Knowledge
+「지식」=『Knowledge』
+배짱=Guts
+「배짱」=『Guts』
+친절=Kindness
+「친절」=『Kindness』
+재주=Proficiency
+「재주」=『Proficiency』
+매력=Charm
+「매력」=『Charm』
+
+
+
+----------
+UI - Roles
+----------
+반항=Rebel
+단일 공격에 능하며 단일 적을 효과적으로 겨냥할 수 있다.=<size\=23>Good at Single-Target attacks, can deal with a single enemy effectively.</size>
+
+지배=Dominate
+광역 공격에 능하며 여러 적을 효과적으로 겨냥할 수 있다.=<size\=28>Good at AoE attacks, can deal with multiple enemies effectively.</size>
+
+구원=Rescue
+동료를 치료하고 팀에 회복력을 제공할 수 있다.=Can heal allies to provide recovery for the team.
+
+방위=Defend
+동료를 보호하는 데 능하며 팀의 생존력을 높인다.=<size\=28>Good at protecting allies to improve team's survivability.</size>
+
+우월=Superior
+동료에게 버프를 제공하며 팀의 전투력을 높일 수 있다.=Can apply buffs to improve teams' overall power.
+
+굴복=Submit
+적군에게 디버프를 부여하여 전투 중 우세를 점할 수 있다.=Can inflict debuffs to gain an advantage in combat.
+
+
+직업 설명=Roles
+
+
+
+
+----------
+UI - Metaverse Menu
+----------
+레벨업 보상=Ascension Rewards
+출전 페르소나 속성은 주인공에게 부여=<size\=20>Wonder's stats are his \nequipped Persona stats combined</size>
+
+r:"^스킬 레벨업 재료"="<size\=30>Skill Incense</size>"
+r:"^무기 돌파 재료"="<size\=25>Weapon Ascension</size>"
+r:"^무기 레벨업 재료"="<size\=25>Weapon Level Up</size>"
+r:"^페르소나 레벨업 재료"="<size\=25>Persona Level Up</size>"
+r:"^괴도 잠재력 재료"="<size\=25>Thief Ascension</size>"
+r:"^괴도 레벨업 재료"="<size\=30>Thief EXP</size>"
+r:"괴도 재능 재료"="Bell of Stars"
+r:"고급 스킬 재료"="<size\=21> Advanced Skill Incense</size>"
+r:"^주간 보상 횟수: <color\=#0665ca>(\d+)/(\d+)</color>$"="Weekly Limit: <color\=#0665ca>$1/$2</color>"
+
+r:"^천장 진도: <color\=#0665ca>(\d+)/(\d+)</color>$"="Pity Progression: <color\=#0665ca>$1/$2</color>"
+r:"^보유 표식: (\d+)"="Marks Held: $1"
+
+----------
+UI - Metaverse Descriptions
+----------
+이곳은 강력한 섀도가 점거하고 있습니다. 특정 유형의 스킬을 사용하면 유효한 공격을 할 수 있습니다. 도전 성공 시 신비한 계시 카드를 획득할 수 있습니다.=This area is occupied by a powerful Shadow. You can make effective attacks by using certain types of skills. Successfully completing the challenge will reward you with a mysterious Revelation card.
+
+전체 괴도의 <color\=#ff0036>추가 효과</color>로 주는 대미지가 50% 증가한다.=Full Tuber <color\=#ff0036>Additional Effect</color>increases damage dealt by 50%.
+
+
+----------
+UI - Astrolabe Trials
+----------
+
+----------
+UI - Aquarius
+----------
+
+
+이번 시즌 남은 시간: =Remaining Time: 
+
+자기장 정보: =Info:
+도전 라인업: =Lineup:
+도전 보상: =Rewards:
+섀도 정보: =Shadows:
+배지 상세=Badges
+
+
+클리어한 체크 포인트:=Cleared Checkpoints:
+필요한 정신력:=Mental Energy Used:
+
+r:"^「레드·체크 포인트」 통과\((\d+)/(\d+)\)"="Passed the "Red-Checkpoint" ($1/$2)"
+
+r:"^모든 「체크 포인트」 클리어\((\d+)/(\d+)\)"="Clear all "Checkpoints" ($1/$2)"
+
+r:"^「퍼플·체크 포인트」 최소 1개 통과\((\d+)/(\d+)\)"="Passed at least 1 "Purple-Checkpoint" ($1/$2)"
+
+
+r:"^(\d+)회 도전 완료"="<size\=20>Completed in $1 cycle(s)."
+r:"^사용 가능 정신력: <color\=#FFC000>(\d+)포인트</color>\(상한 (\d+)\)"="<size\=21>Increase Mental Energy by <color\=#FFC000>$1.</color> (Max $2)</size>"
+
+r:"^모든 괴도 도전 횟수 <color\=#FFC000>(\d+)회</color> 증가\(상한 (\d+)\)"="Increase Thief Usage by <color\=#FFC000>$1</color> (Max $2)"
+
+<color\=#FFFC40>원더</color>의 최종 대미지가 100% 증가한다.=Increase <color\=#FFFC40>Wonder</color>'s Final DMG by 100%.
+
+모든 괴도는 <color\=#FFFC40>추가 턴</color>에서 최종 대미지가 120% 증가한다.=Increase all Thieves' Final DMG by 120% when they are  .in <color\=#FFFC40>Extra Turn</color>.
+
+
+<color\=#ff381d>화염</color>/<color\=#00aeff>빙결</color>/<color\=#fbff37>전격</color>/<color\=#81ea2c>질풍</color> 속성 팀원이 주는 최종 대미지가 30% 증가한다.=Increase the final DMG of <color\=#ff381d>Fire</color>/<color\=#00aeff>Ice</color>/<color\=#fbff37>Elec</color>/<color\=#81ea2c>Wind</color> by 30%.
+
+<color\=#ff63ff>염동</color>/<color\=#00fcff>핵열</color>/<color\=#fffea0>축복</color>/<color\=#ff0036>주원</color> 속성 팀원이 주는 최종 대미지가 30% 증가한다.=Increase the final DMG of <color\=#ff63ff>Psy</color>/<color\=#00fcff>Nuke</color>/<color\=#fffea0>Bless</color>/<color\=#ff0036>Curse</color> by 30%.
+
+파티에 <color\=#FFFC40>반항/지배</color> 괴도가 2명 이상이면 전체 괴도의 최종 대미지가 60% 증가한다.=Increase all Thieves' Final DMG by 60% when there are 2 or more <color\=#FFFC40>Rebellion/Domination</color> Thieves.
+
+모든 괴도가 <color\=#FFFC40>추가 치료를 받을</color> 때마다 2턴 동안 최종 대미지가 30% 증가한다(2회 중첩 가능).=Increase all Thieves' Final DMG by 30% after recieving <color\=#FFFC40>Follow Up Healing</color> for 2 turns, up to 2 stacks.
+
+모든 적이 <color\=#FFFC40>원소 이상</color> 상태를 1개 보유할 때마다 받는 최종 대미지가 5% 증가한다. 또한, 동시에 4종 <color\=#FFFC40>원소 이상</color> 상태를 보유하면 받는 최종 대미지가 추가로 40% 증가한다.=Increase all enemies' Final DMG taken by 5% for every <color\=#FFFC40>Elemental Ailment</color> they have; ditionally, Additionally increase their Final DMG taken by 40% when they have 4 or more <color\=#FFFC40>Elemental Ailments</color>.
+
+
+모든 괴도가 <color\=#FFFC40>TECHNICAL</color>을 줄 시, 최종 대미지가 100% 증가한다.=Increase all Thieves' Final DMG by 100% when dealing <color\=#FFFC40>TECHNICAL</color> damage.
+
+<color\=#FFFC40>반항</color> 괴도가 주는 최종 대미지가 30% 증가한다.=Increase the Final DMG of <color\=#FFFC40>Rebel</color> Thieves by 30%.
+
+파티에 <color\=#FFFC40>같은 속성</color>의 괴도가 2/3/4명 있을 시, 전체 괴도의 최종 대미지가 20%/40%/60% 증가한다.=Increase all Thieves' Final DMG by 20%/40%/60% when you have 2/3/4 Thieves with <color\=#FFFC40>the same Element</color>.
+
+효과 1: 적이 받는 <color\=#FFFC40>ONEMORE/총공격</color>의 대미지가 400% 증가한다.\n효과 2: 전투 시작 및 적의 턴 시작 시, 적은 무작위로 속성 약점 1개를 획득한다(가장 최근에 얻은 약점만 존재).=All enemies take 400% more damage from <color\=#FFFC40>ONE MORE and All Attacks</color>; All enemies randomly gain 1 weakness at the start of each turns.
+
+
+
+모든 적이 괴도에게 대미지를 1회 받을 때마다 해당 괴도의 최종 대미지가 3턴 동안 4%씩 증가한다(15회 중첩 가능).=After enemies take 1 hit of damage from a Thief, increase that Thief's Final DMG by 4% for 3 turns, up to 15 stacks. 
+
+
+모든 팀원이 <color\=#FFFC40>지속 대미지</color>를 줄 시, 최종 대미지가 200% 증가한다.=Increase all Thieves' Final DMG by 200% when dealing <color\=#FFFC40>DOT (Damage Over Time)</color>.
+
+
+
+----------
+UI - Paradise Trials
+----------
+보스 총 포인트: =Total Score:
+이번 시즌 포인트=Season Score
+포인트 통계 진도=Progress
+낙원 순위=Paradise Rank
+낙원 활약도=Member Rank
+이번 주 모든 보상을 획득했습니다=Earned all Rewards this Season
+보상 상세=Rewards
+r:"^난이도 계수: <color\=#0e68c9>(\d+)</color>"="Difficulty: <color\=#0e68c9>$1</color>"
+
+r:"^개인 역대 총포인트에 따라 보상 수령 가능, 현재: <color\=#eade10>(\d+)</color>"="Rewards based on Personal All-Time Seasonal Score. Current Max: <color\=#eade10>$1</color>"
+
+
+----------
+UI - Velvet Trials (Season)
+----------
+
+티어 상태:=Tier Status:
+<color\=#ef0000>강등 예정</color>=<size\=28><color\=#ef0000>   Upcoming Demotion</color></size>
+
+유지 조건:=Retention Req:
+순위 <color\=#FFF000>상위 500위</color>=<color\=#FFF000>     Top 500</color>
+
+남은 시간: =Remaining: 
+
+챕터 보상=Rewards
+
+매일 벨벳 시련에 따라 총성급 보상을 지급합니다.=Rewards sent Daily based upon Stars.
+
+누적 획득한 이계 엠버: =Accumulated Metaverse Amber:
+
+r:"^누적 획득 별 개수\((\d+)/(\d+)\)"="Combined Stars Earned ($1/$2)"
+
+
+r:"^(\d+)회 행동 내 승리"="Wins in $1 Turns"
+
+WEAK/총공격 시 획득 점수=WEAK/All-Out Attack Points
+사망자 수 0명 이하=0 or fewer Fatalities
+
+물리/핵열 속성 공격 시 획득 점수=Physical/Nuclear DMG Points
+빙결/핵열 속성 팀원 공격 시 점수=Ice/Nuke DMG Points
+화염/염동 속성 팀원 공격 시 점수=Fire/Psy DMG Points
+전격/축복 속성 팀원 공격 시 점수=Electric/Bless DMG Points
+질풍/주원 속성 팀원 공격 시 점수=Wind/Curse DMG Points.
+물리/질풍 속성 공격 시 획득 점수=Physical/Psy DMG Points
+화염/빙결 속성 공격 시 획득 점수=Fire/Ice DMG Points.
+
+r:"^\{{A}}/{{A}} 속성 공격 시 획득 점수$"="$1/$2 DMG Points."
+
+
+----------
+UI - City Tasks
+----------
+
+r:"^고액 보상: <color\=#FFFF00>(\d+)배</color>"="Rewards: <color\=#FFFF00>$1x</color>"
+
+
+드러그 스토어에서 알바=Work Part-time\nat the Drug Store
+테마 카페에서 알바=Work part-time\nat the Concept Café</size>
+미유와 함께하기=Spend time with \nMiyu
+
+
+
+
+
+----------
+UI - Formation Screen
+----------
+
+괴도를 길게 눌러 육성 가능=<size\=28>Hold to View Stats</size>
+
+
+----------
+UI - Gacha Store
+----------
+
+
+오늘 잔여 교환: =Daily Trades:
+유저 ID를 입력해 검색=Type UID
+최대 200개의 캡슐 기록 보관=Records up to 200 trades
+캡슐 기록=Trade History
+잔여 소원 등록 횟수: =Wishlist: 
+
+
+----------
+UI - Friend Screen
+----------
+
+
+받은 친구 신청이 없습니다.=No Friend Requests
+차단한 플레이어가 없습니다.=No Blocked Players
+
