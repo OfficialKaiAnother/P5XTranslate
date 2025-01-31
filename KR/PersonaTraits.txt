@@ -189,5 +189,41 @@ r:"^인왕의 심판(.*)$"="<size\=20>King of Righteousness Judgement $1</size>"
 @NON WORKING r:"^공격력이 (\d+\.\d+%) 증가한다. 자신이 스킬 시전 시, (\d+%)턴 동안 모든 동료의 축복 중첩수에 따라 주는 축복 대미지가 (\d+%) 증가한다((\d+%)회 중첩 가능).$"="Increase ATK by $1. When a using a skill, increase Bless DMG by $2 for $4 turns based on the number of Bless stacks on all allies, up to $3 stack. When using a skill, increase ATK for allies with not less than $5 stacks of Bless by $6 for 2 turns."
 
 
+---------
+RANK 7
+----------
+Cu Chu
+r:"^포효하는 맹견(.*)$"="Roaring Hound $1"
+r:"^크리티컬 확률이 (\d+\.\d+%) 증가한다. 크리티컬 시 적에게 「치명덫」을 추가하고, 다음 고유 스킬 공격으로 표식을 폭발시켜 스킬 대미지가 공격력의 (\d+%)만큼 추가 증가한다. 표식 폭발 시 낮은 확률로 즉사 효과가 발동된다.$"="<size\=25>Increase CRIT Rate by $1. Inflict [Mortal Barb] when dealing Critical, detonate this the next time you use the signature skill, additionally increase skill damage by $2 ATK. When detonating, there is a low chance to inflict Instant Death.</size>"
+r:"^크리티컬 확률이 (\d+\.\d+%) 증가한다. 크리티컬 시 적에게 「치명덫」을 추가하고, 다음 고유 스킬 공격으로 표식을 폭발시켜 스킬 대미지가 공격력의 (\d+%)만큼 추가 증가한다. 표식 폭발 시 매우 낮은 확률로 즉사 효과가 발동된다.$"="<size\=25>Increase CRIT Rate by $1. Inflict [Mortal Barb] when dealing Critical, detonate this the next time you use the signature skill, additionally increase skill damage by $2 ATK. When detonating, there is a very low chance to inflict Instant Death.</size>"
+
+@致命倒鉤=Mortal Barb
+@r:"^致<color\=#000000>命</color>倒鉤$"="M<color\=#000000>o</color>rtal Barb"
+@使荊棘之槍造成額外效果=Gae Bulg triggers additional effects
+
+Siegfried
+r:"^용사의 살의x$"="Fearless Hero $1"
+r:"^공격력이 (\d+\.\d+%) 증가한다. 전투 시작 시 「용혈」을 획득한다. 자신이 물리 속성 스킬 시전 시 (\d+)턴 동안 공격력이 (\d+%) 증가한다. 고유 스킬 사용 시 「용혈」 상태를 강화하며, 물리 속성 스킬을 시전하면 대미지가 (\d+%), 크리티컬 효과가 (\d+%) 추가로 증가한다.$"="<size\=26>Increase ATK by $1. At the start of battle, gain [Dragon Blood]: When using Physical skills, increase ATK by $3 for $2 turns. When using the signature skill, boost the effect of [Dragon Blood], additionally increase damage by $4 and CRIT DMG by $5 when using Physical skills.</size>"
+@龍血=Dragon Blood
+@r:"^龍<color\=#000000>血</color>$"="D<color\=#000000>r</color>agon Blood"
+
+Chernobog
+r:"^만연한 적막(.*)$"="Deadly Silence $1"
+r:"^효과 명중이 (\d+\.\d+%) 증가한다. 「악몽」은 (\d+)턴 동안 효과 저항이 (\d+%), 방어력이 (\d+%) 감소한다. 「악몽」 상태일 때 적이 받는 물리 대미지가 (\d+%) 증가한다. 적이 물리 대미지를 (\d+)회 받을 때마다 추가로 (\d+)중첩을 획득하며 중첩마다 독립적으로 계산된다. 최대 (\d+)회 중첩 가능하며 (\d+)턴 동안 지속된다.$"="Increase EHR by $1. [Nightmare] decrease Effect RES by $3 and DEF by $4 for $2 turns. Under [Nightmare], increase enemies' Phys DMG Taken by $5 for $8 turns. Additionally increase Phys DMG Taken stacks by $7 after the enemy take $6 hits of Physical damage. Each stack count down independently."
+@噩夢=Nightmare
+
+Black Frost
+r:"^이루리라(.*)$"="Win-ho! $1"
+r:"^스킬을 사용해 적을 다운 상태에 빠뜨리면 「눈보라」 (.*)중첩 획득: (.*)턴 동안 공격력이 (.*) 증가하고 빙결 대미지가 (.*) 증가한다\(최대 (.*)회 중첩 가능\).$"="<size\=27>When using skills to down enemies, gain $1 stack of [Blizzard]: Increase ATK by $3 and Ice DMG by $4 for $2 turns, up to $5 stacks.</size>"
+r:"^공격력이 (.*) 증가한다. 스킬을 사용해 적을 다운 상태에 빠뜨리면 「눈보라」 (.*)중첩 획득: (.*)턴 동안 공격력이 (.*) 증가하고 빙결 대미지가 (.*) 증가한다\(최대 (.*)회 중첩 가능\).$"="Increase ATK by $1. When using skills to down enemies, gain $2 stack of [Blizzard]: Increase ATK by $5 and Ice DMG by $4 for $6 turns, up to $3 stacks."
+@暴風雪=Blizzard
+
+
+
+Yamata
+r:"^제물의 비명(.*)$"="Screams of Sacrifice $1"
+r:"^크리티컬 확률이 (\d+\.\d+%) 증가한다. 동결 상태인 적에게 주는 대미지가 (.*) 증가한다. 빙결 속성의 페르소나 스킬 시전 시 스킬 메인 목표의 생명이 (.*) 미만일 시, 공격력 (.*)의 추가 빙결 속성 대미지를 (.*)회 준다."="Increase CRIT Rate by $1. Increase DMG Dealt to enemies inflicted with Freeze by $2. When using Ice skills, deal an additional $4 ATK Ice damage to the main target if they are below $3 HP."
+
+r:"^크리티컬 확률이 (.*) 증가한다. <link\="s\|103"><u>동결</u></link> 상태인 적에게 주는 대미지가 (.*) 증가한다. 빙결 속성의 페르소나 스킬 시전 시 스킬 메인 목표의 생명이 (.*) 미만일 시. 공격력 (.*)의 추가 빙결 속성 대미지를 (.*)회 준다.$"="Increase CRIT Rate by $1. Increase DMG Dealt to enemies inflicted with <link\="s|103"><u>Freeze</u></link> by $2. When using Ice skills, deal an additional $4 ATK Ice damage to the main target if they are below $3 HP."
 
 
