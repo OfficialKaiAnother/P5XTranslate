@@ -10,86 +10,98 @@ r:"^터치하여 계시 필터 수정"="Card Filter"
 최대 2개 선택 가능=Max 2
 세트 고르기가 없습니다=None Selected
 
-r:"^[환희]"="[Joy]"
+
+
+환희=Joy
+[환희]=[Joy]
 r:"^2세트 효과：염동 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Psy DMG by <color\=#2899ff>$1</color>."
 r:"^4세트 효과：염동 대미지를 줄 때 공격력이 (\d+%) 증가한다. 적군이 (\d+)명 이상이면 공격력이 <color\=#2899ff>(\d+%)</color> 추가 증가한다."="\n4-Set Bonus: Increase ATK by $1 when dealing Psy damage. Additionally increase ATK by <color\=#2899ff>$3</color> if there's not less than $2 enemies."
 
-
-[우려]=[Worry].
+우려=Worry
+[우려]=[Worry]
 r:"^2세트 효과：SP 회복이 <color\=#2899ff>(\d+%)</color> 증가한다.$"="2-Set Bonus: Increase SP Recovery by <color\=#2899ff>$1</color>."
 r:"^4세트 효과：전투 진입 즉시 <color\=#2899ff>(\d+%)</color>의 HIGHLIGHT 에너지를 회복하며, HIGHLIGHT 에너지 회복 효과는 중복 발동할 수 없다.$"="\n4-Set Bonus: When entering battle immediately recovers <color\=#2899ff>$1</color> of HIGHLIGHT charge, doesn't stack."
 
-[미덕]=[Virtue].
+미덕=Virtue
+[미덕]=[Virtue]
 r:"^2세트 효과：축복 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다.$"="2-Set Bonus: Increase Bless DMG by <color\=#2899ff>$1</color>."
 r:"^4세트 효과：생명 백분율이 (\d+%) 이상일 때 축복 속성의 크리티컬 확률이 <color\=#2899ff>(\d+%)</color> 증가한다.$"="\n4-Set Bonus: Increase Bless skill CRIT Rate by <color\=#2899ff>$2</color> when your HP% is not lower than $1."
 
-
-[직책]=[Duty].
+직책=Duty
+[직책]=[Duty]
 r:"^2세트 효과：생명이 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase HP by <color\=#2899ff>$1</color>."
 r:"^4세트 효과：해명 괴도 장착 시 효력 발생: 전투 중 모든 동료의 생명, 공격력, 방어력이 <color\=#2899ff>(\d+%)</color> 증가한다."="\n4-Set Bonus: When equipped by a Navigator: Increase all allies' HP, ATK and DEF by <color\=#2899ff>$1</color>."
 
-
+억압=Repression
 [억압]=[Repression].
 r:"^2세트 효과：물리 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Physical DMG by <color\=#2899ff>$1</color>."
 r:"^(\d+)세트 효과：스킬로 대미지를 줄 때마다 자신이 『원한』을 획득해 (\d+)턴 동안 자신의 공격력이 <color\=#2899ff>(\d+%)</color> 증가한다\((\d+)회 중첩 가능\).$"="\n4-Set Bonus: Gain [Resentment] after every hit of Skill DMG: Increase ATK by <color\=#2899ff>$3</color> for $2 turns up to $1 stacks."
 
+사랑=Love
 [사랑]=[Love].
 r:"^2세트 효과：치료 효과가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Healing Effectiveness by <color\=#2899ff>$1</color>."
 r:"^4세트 효과：생명이 (\d+%) 미만인 괴도 치료 시 치료 효과가 <color\=#2899ff>(\d+%)</color> 증가한다."="\n4-Set Bonus: When healing a Party Member whose Health is below $1, Healing Effectiveness will be increased by <color\=#2899ff>$2</color>."
 
+개선=Triumph
 [개선]=[Triumph]
 r:"^2세트 효과：크리티컬 확률이 <color\=#2899ff>(\d+\.\d+%)</color> 증가한다."="2-Set Bonus: Increase Crit Rate by <color\=#2899ff>$1</color>."
 r:"^4세트 효과：추가 효과로 주는 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="\n4-Set Bonus: Follow-Up ATK DMG is increased by <color\=#2899ff>$1</color>."
 
-[화려]=[Luxury].
+화려=Luxury
+[화려]=[Luxury]
 r:"^2세트 효과：빙결 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Ice DMG by <color\=#2899ff>$1</color>."
 
-[힘]=[Power].
+힘=Power
+[힘]=[Power]
 r:"^2세트 효과：공격력이 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase ATK by <color\=#2899ff>$1</color>."
 r:"^4세트 효과：전투 진입 후 6턴마다 자신의 공격력이 <color\=#2899ff>(\d+%)</color> 증가한다\(3회 중첩 가능\).$"="\n4-Set Bonus: At the start of battle, increase ATK by <color\=#2899ff>$1</color> after every 6 turns, up to 3 stacks."
 
+용맹=Valor
 [용맹]=[Valor].
 r:"^4세트 효과：2턴 동안 크리티컬 효과가 <color\=#2899ff>(\d+%)</color> 증가한다. 크리티컬을 가한 후 다시 같은 효과를 획득한다."="\n4-Set Bonus: Increase CRIT DMG by <color\=#2899ff>$1</color> for 2 turns; Gain this effect again when you land a CRIT."
 
-[방해]=[Interference].
+방해=Interference
+[방해]=[Interference]
 r:"^2세트 효과：주원 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Curse DMG by <color\=#2899ff>$1</color>.</size>"
 r:"^4세트 효과：디버프 상태인 적에게 주는 주원 속성 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="\n4-Set Bonus: Increase Curse DMG by <color\=#2899ff>$1</color> when attacking enemies with debuffs.</size>"
 
 
-
-[방해]=[Sovereignty].
+방해=Sovereignty
+[방해]=[Sovereignty]
 r:"^4세트 효과：스킬을 사용해 적 공격 시 메인 목표에게 자신의 생명 <color\=#2899ff>(\d+%)</color>의 추가 대미지를 준다."="\n4-Set Bonus: Deal <color\=#2899ff>$1</color> HP additional damage to the main target when attacking with a skill.</size>"
 
-[풍요]=[Affluence].
+풍요=Affluence
+[풍요]=[Affluence]
 r:"^2세트 효과：받는 대미지가 <color\=#2899ff>(\d+%)</color> 감면된다."="2-Set Bonus: Decrease DMG Taken by <color\=#2899ff>$1</color>.</size>"
 
-
-[승리]=[Victory].
+승리=Victory
+[승리]=[Victory]
 r:"^2세트 효과：질풍 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Wind DMG by <color\=#2899ff>$1</color>.</size>"
 r:"^4세트 효과：공격 단계마다 (\d+%)의 고정 확률로 자신이 공격력 <color\=#2899ff>(\d+%)</color>의 대미지를 추가로 준다."="\n4-Set Bonus: There's a $1 fixed chance to increase ATK by <color\=#2899ff>$2</color> after each hits of attack.</size>"
 
 
 
-
+변환=Change
 [변환]=[Change].
 r:"^2세트 효과：전격 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Electric DMG by <color\=#2899ff>$1</color>.</size>"
 r:"^4세트 효과：임의의 괴도가 전격 속성 스킬을 사용한 후 자신의 전격 속성 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다\(3회 중첩 가능\).$"="\n4-Set Bonus: Increase Electric DMG by <color\=#2899ff>$1</color> after any allies used Electric skill, up to 3 stacks.</size>"
 
+좌절=Defeat
 [좌절]=[Defeat].
 r:"^2세트 효과：효과 명중이 <color\=#2899ff>(\d+%)</color> 증가한다.$"="2-Set Bonus: Increase Effect Hit Rate by <color\=#2899ff>$1</color>.</size>"
 r:"^4세트 효과：디버프 상태인 적에게 주는 화염 속성 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다.$"="\n4-Set Bonus: Increase Fire DMG to enemies with debuffs by <color\=#2899ff>$1</color>."
 
-
-[진리]=[Truth].
+진리=Truth
+[진리]=[Truth]
 r:"^2세트 효과：핵열 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Nuke DMG by <color\=#2899ff>$1</color>.</size>"
 r:"^4세트 효과：스킬로 적을 공격할 시, 메인 목표가 원소 이상 상태인 경우 공격력 <color\=#2899ff>(\d+%)</color>의 대미지를 준다."="\n4-Set Bonus: Deal <color\=#2899ff>$1</color> ATK damage to the main target if the enemy is inflicted with Elemental Ailments.</size>"
 
-
-[평화]=[Peace].
+평화=Peace
+[평화]=[Peace]
 r:"^2세트 효과：방어력이 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase DEF by <color\=#2899ff>$1</color>.</size>"
 r:"^4세트 효과：실드 효과가 <color\=#2899ff>(\d+%)</color> 증가한다."="\n4-Set Bonus: Increase Shield Effect by <color\=#2899ff>$1</color>.</size>"
 
-
+분쟁=Dispute
 [분쟁]=[Dispute].
 r:"^2세트 효과：화염 대미지가 <color\=#2899ff>(\d+%)</color> 증가한다."="2-Set Bonus: Increase Fire DMG by <color\=#2899ff>$1</color>.</size>"
 r:"^4세트 효과：공격력이 <color\=#2899ff>(\d+%)</color> 증가한다. 적의 화염 속성 적합성이 낮을 경우 공격력이 <color\=#2899ff>(\d+%)</color> 추가 증가한다."="\n4-Set Bonus: Increase ATK by <color\=#2899ff>$1</color>. Additionally increase ATK by <color\=#2899ff>$2</color> if the enemy is weak to Fire."
