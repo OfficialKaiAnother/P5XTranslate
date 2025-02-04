@@ -181,10 +181,9 @@ r:"^시부야 상점가"="Central Street"
 r:"^골목"="Alleyway"
 r:"^학교 정문=Main Entrance
 r:"^시모키타자와역=Shimokitazawa Station
-r:"^학교 옥상"="School Roof
-r:"^학교 3층"="3rd Floor"
-r:"^학교 2층"="2nd Floor"
-r:"^학교 1층"="1st Floor"
+r:"^학교 3층"="School 3F"
+r:"^학교 2층"="School 2F"
+r:"^학교 1층"="School 1F"
 r:"^산책로"="Pathway"
 r:"^유흥가"="Redlight District"
 r:"^시로사토 해변"="Shirosato Beach"
@@ -193,6 +192,69 @@ r:"^코카츠 고교  중정"="Kokatsu High School"
 r:"^자택  침실"="Bedroom"
 r:"^자택  거실"="Living Room"
 r:"^카페"="Cafe"
+
+지하철역=Subway Station
+슈퍼마켓=Supermarket
+중고 잡화점=Thrift Shop
+야구 연습장=Batting Cages
+낚시=Fishing
+동아리 게시판=Club Boards
+팰리스=Palace
+슈진=Shujin
+고등학교=High School
+벨벳 룸=Velvet Room
+카페=Café
+르블랑=Leblanc
+진료소=Clinic
+시부야=Shibuya
+센트럴 가=Central Street
+밀리터리 숍=Military Shop
+역 앞 광장=Station Square
+욘겐자야=Yongen-Jaya
+타케미 진료소=Takemi Clinic
+욘겐자야  골목=Yongenjaya Alley
+조시가야  니시산도=Zoshigaya Nishisando
+역 지하 쇼핑몰=Underground Mall
+시부야  지하 쇼핑몰=<size\=34>Underground Shopping Mall</size>
+지하 통로=Underground Walkway
+신주쿠=Shinjuku
+환락가=Red Light District
+신주쿠  유흥가=Shinjuku Nightlife
+아키하바라=Akihabara
+코카츠 고교  중정=Kokatsu High School
+학교 정문=School Main Entrance
+시모키타자와역=Shimokitazawa Station
+학교 옥상=School Rooftop
+옥상=Rooftop
+
+3층 복도=Hallway 3F
+2층 복도=Hallway 2F
+1층 복도=Hallway 1F
+도서실=Library
+중정=Courtyard
+정문=Front Gate
+시부야 상점가=<size\=23>Shibuya Shopping Street</size>
+지하 쇼핑몰=<size\=20>Underground Shopping Mall</size>
+연락교=<size\=20>Teikyu Building Accessway</size>
+역 광장=Station Square
+골목=Alley
+조시가야=Josiah
+센트럴가=Central Street
+야구장 정문=Baseball Stadium
+전시관=Exhibition
+훈련관=Training Facility
+전시홀 1층=<size=23>Exhibition Hall 1F</size>
+전시홀 2층=<size=23>Exhibition Hall 2F</size>
+ 옥상 남쪽=Rooftop South
+코카츠 고교  강의실 2-C=Kokatsu High School Classroom 2-C
+코카츠 고교  2층 복도=Kokatsu High School 2nd Floor Corridor
+코카츠 고교  1층 복도=Kokatsu High School 1F Corridor
+캡슐 자판기·시부야=<size\=13>Shibuya Capsule Machine</size>
+캡슐 자판기·조시가야=<size\=13>Zoshigaya Capsule Machine</size>
+캡슐 자판기·신주쿠=<size\=13>Shinjuku Capsule Machine</size>
+이치가야=Ichigaya
+메멘토스=Mementos
+키<color\=#ff0000ff>우</color>치·팰리스=<color\=#ff0000ff>Takeyuki Kiuchi's</color> Palace
 
 
 ----------
