@@ -111,7 +111,13 @@ RLD - Yaoling Li
 r:"^<color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 화염 속성 대미지를 주고, (\d+)턴 동안 자신의 크리티컬 확률이 (\d+%) 증가한다. 『불꽃놀이 유성』이 강화되어, (\d+)턴 동안 추가로 공격력 (\d+\.\d+%)의 화염 속성 대미지를 준다.$"="Deals $1 ATK Fire damage to <color\=#FFFF00>all</color> enemies and increases own CRIT Rate by $3 for $2 turns. Upgrades [Fiery Shooting Star]: Additionally deals $5 ATK Fire damage, this upgrade lasts for $4 turn."
 
 @Firecracker Song
-Not WORKING CURRENTLY @r:"^$"="Deals $1 ATK Fire damage to <color\=#FFFF00>all</color> enemies, with a $2 base chance to inflict the targets with Burn and [Year Fire] for $3 turns. Upgrades [Fiery Shooting Star]: There is a $4 base chance to inflict the targets with [Year Fire], this upgrade lasts for $5 turn.\n[Year Fire]: Take $6 ATK Fire damage for $7 turns, up to $8 stacks."
+r:"^<color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 화염 속성 대미지를 주고, (\d+)턴 동안 (\d+%)의 기본 확률로 목표를 화상과 『세월의 불꽃』 상태에 빠뜨린다.\n『불꽃놀이 유성』이 강화되어, (\d+%)의 기본 확률로 (\d+)턴 동안 목표를 『세월의 불꽃』 상태에 빠뜨린다.\n『세월의 불꽃』: 매턴마다 리 야오링·사자무 공격력 (\d+\.\d+%)의 화염 속성 대미지를 받으며 (\d+)턴 동안 지속된다\((\d+)회 중첩 가능\).$"="Deals $1 ATK Fire damage to <color\=#FFFF00>all</color> enemies, with a $3 base chance to inflict the targets with Burn and [Year Fire] for $2 turns. Upgrades [Fiery Shooting Star]: There is a $4 base chance to inflict the targets with [Year Fire], this upgrade lasts for $5 turn.\n[Year Fire]: Take $6 ATK Fire damage for $7 turns, up to $8 stacks."
+
+@Skill 3
+r:"^<nobr>묘도에 불을 붙여 자신이 『철꽃의 춤』 상태에 진입하여, 주는 대미지가 (\d+\.\d+%) 증가하고, 기간 동안 근접 공격이 『불꽃놀이 유성』으로 강화된다. 효과는 (\d+)턴 동안 또는 『불꽃놀이 유성』을 시전할 때까지 지속된다.\n『불꽃놀이 유성』: <color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 화염 속성 대미지와 화염 속성 TECHNICAL을 주며, 폭발 연소 발동 시 TECHNICAL 효과가 (\d+%)까지 증가한다.\n초기에 (\d+)턴의 쿨타임을 가지며, 해당 스킬 사용 한 턴에서 여전히 다른 스킬을 사용할 수 있다. 해당 스킬은 페르소나 스킬로 간주하지 않는다.$"="Applies fire to your sword and enters [Iron Flower Dance]: Increases DMG Dealt by $1, upgrades your Melee Attack to [Fiery Shooting Star] for $2 turn or until you use [Fiery Shooting Star].\n[Fiery Shooting Star]: Deals $3 ATK Fire damage to <color\=#FFFF00>all</color> enemies and triggers Fire TECHNICAL, when triggering Backdraft, increases TECHNICAL effect by $4.\nStarts with a $5 turn cooldown, you can still use other skills after using this skill, this skill is not seen as a Persona skill."
+
+
+
 
 
 
