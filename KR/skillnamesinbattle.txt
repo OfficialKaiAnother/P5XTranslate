@@ -55,3 +55,36 @@ Boss: Shadow Kiuchi
 폭발 숭배구=Spike of Lust
 회전 숭배구=Spinning Spike of Lust
 패한 적이 없어!=You can't lose!
+
+
+빙결=Ice
+물리=Physical
+총격=Gun
+화염=Fire
+전격=Electric
+질풍=Wind
+염동=Psy
+핵열=Nuclear
+축복=Bless
+주원=Curse
+만능=Almighty
+
+남은 턴 수:=<size\=23>Turns Remaining:</size>
+
+
+
+
+
+
+갓 핸드=God's Hand
+
+
+
+
+
+--- Normal Generalized Skills ---
+
+//ST
+sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 준다."="Deals <color\=#fffc40>$1</color> ATK $2 damage to <color\=#FFFF00>1</color> enemy."
+
+//ST Multi-Hit Random
