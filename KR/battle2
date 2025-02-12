@@ -80,11 +80,68 @@ Chord - Ayaka Sakai
 @Passionate Singing
 r:"^<color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 전격 속성 대미지를 준다. <link\="s\|190"><u>『열성 관객』</u></link>이 있는 경우, <link\="s\|190"><u>『열성 관객』</u></link>이 스킬 메인 목표에게 추가로 『열성 관객』 공격력 (\d+\.\d+%)의 전격 속성 추가 대미지를 1회 준다.$"="Deals $1 ATK Electric damage to <color\=#FFFF00>all</color> enemies. If there is a <link\="s|190"><u>[Loyal Listener]</u></link>, the <link\="s|190"><u>[Loyal Listener]</u></link> deals an additional $2 ATK Electric damage based on their own ATK to the main target."
 
+@UI
+r:"^모든 적에게 공격력 <color\=#FFFC40>(\d+\.\d+%)</color>의 전격 속성 대미지를 준다. <link\="s\|190"><u>『열성 관객』</u></link>이 있는 경우, <link\="s\|190"><u>『열성 관객』</u></link>이 스킬 메인 목표에게 추가로 <link\="s\|190"><u>『열성 관객』</u></link> 공격력 <color\=#FFFC40>(\d+\.\d+%)</color>의 전격 속성 대미지를 1회 준다.\n<b><size\=28><color\=#850101>심장을 뛰게 하는 멜로디로 지구를 흔들어 놓자! 오늘 밤의 목표는 「지붕 뚫기」와 「세계를 놀라게 하기」!</color></size></b>$"="Deals <color\=#FFFC40>$1</color> ATK Electric damage to all enemies. If there is a <link\="s|190"><u>[Loyal Listener]</u></link>, the <link\="s|190"><u>[Loyal Listener]</u></link> deals an additional Electric damage based on <color\=#FFFC40>$2</color> of their ATK to the main target.\n<b><size\=28><color\=#850101>Let the heartbeat flutter and let the melody tear the earth. Tonight's goal is "overturning the roof" and "electric shock all over the world"!</color></size></b>"
+
+
 @Improvised Solo
 r:"^동료 <color\=#FFFF00>1명</color>을 선택하여 <link\="s\|190"><u>『열성 관객』</u></link>으로 만들면 3턴 동안 <link\="s\|190"><u>『열성 관객』</u></link>의 공격력이 (\d+) 증가한다. <link\="s\|190"><u>『열성 관객』</u></link>은 동시에 1명만 보유할 수 있다."="Selects <color\=#FFFF00>1</color> ally to become the <link\="s|190"><u>[Loyal Listener]</u></link>，increases their ATK by $1 for 3 turns. There can only be 1 <link\="s|190"><u>[Loyal Listener]</u></link> at a time."
 
+@UI
+r:"^1명의 동료를 선택하여 <link\="s\|190"><u>『열성 관객』</u></link>으로 만들면 <link\="s\|190"><u>『열성 관객』</u></link>의 공격력이 사카이 아야카 공격력의 (\d+%)만큼 증가하며 3턴 동안 지속된다\(최대 <color\=#FFFC40>(\d+)</color>\). <link\="s\|190"><u>『열성 관객』</u></link>은 동시에 1명만 보유할 수 있다.\n<b><size\=28><color\=#850101>울려 퍼지는 환호를 받으며 무대에 올라서는 로큰롤의 여왕은 결코 팬들을 실망시키지 않는다.</color></size></b>$"="Selects 1 ally to become the <link\="s|190"><u>[Loyal Listener]</u></link>，increases their ATK by $1 of your own ATK for 3 turns, up to <color\=#FFFC40>$2</color>. There can only be 1 <link\="s|190"><u>[Loyal Listener]</u></link> at a time.\n<b><size\=28><color\=#850101>Let's make your debut in front of the loudest cheers, the Queen of Rock and Roll will not let Loyal Listener down!</color></size></b>"
+
+
+
+
 @Finale: Range Unleashed
 r:"^동료 <color\=#FFFF00>1명</color>을 선택하여 즉시 HIGHLIGHT 스킬을 시전한다. 동시에 이번 HIGHLIGHT의 대미지가 (\d+\.\d+%) 증가한다.$"="Selects <color\=#FFFF00>1</color> ally, immediately uses their HIGHLIGHT and increase that HIGHLIGHT damage by $1"
+
+@UI
+r:"^동료 1명을 선택해 즉시 HIGHLIGHT 스킬을 시전한다. 동시에 이번 HIGHLIGHT의 대미지가 <color\=#FFFC40>(\d+\.\d+%)</color> 증가한다. 해당 스킬을 통해 사용한 HIGHLIGHT는 캐릭터 HIGHLIGHT 쿨타임에 계산되지 않는다.\n<b><size\=28><color\=#850101>와일드한 소녀의 보컬이 오늘 밤 피날레를 장식한다. 벌써 현장 분위기는 뜨겁게 달아올랐다!</color></size></b>$"="Selects 1 ally and immediately uses their HIGHLIGHT, increases that HIGHLIGHT damage by <color\=#FFFC40>$1</color>. HIGHLIGHT used by this skill will not count towards their HIGHLIGHT cooldown.\n<b><size\=28><color\=#850101>The wild and unruly girl vocalist is going to perform the finale song of the night, and the atmosphere has already reached its climax!</color></size></b>"
+
+@Combat Skills
+
+@UI
+r:"^『HIGHLIGHT』：괴도 행동 4회 동안 모든 동료가 <color\=#FFFC40>(\d+\.\d+%)</color>의 대미지 보너스를 받는다. 기간 동안 아군 괴도는 행동 후 HIGHLIGHT 에너지를 (\d+%) 획득하며, 최대 (\d+%) 회복한다.\n『ONE MORE』：1명의 적에게 전격 속성 대미지를 준다.\n근접 공격：근거리 무기를 사용하여 1명의 적에게 소량의 물리 속성 대미지를 준다.\n총기 공격：총기로 1명의 적을 사격하여 소량의 총격 속성 대미지를 준다. 총알 개수에 따라 여러 번 사격할 수 있다.$"="[HIGHLIGHT]: Increases all allies' DMG Dealt by <color\=#FFFC40>$1</color> for 4 actions. Restores $2 HIGHLIGHT Energy after each allies' action, up to $3. \n[ONE MORE]: Deals Electric damage to 1 enemy. \nMelee Attack: Uses a melee weapon to deal light Physical damage to 1 enemy. \nGun Attack: Uses a gun to shoot 1 enemy. dealing Gun damage, can shoot multiple times based on ammo."
+
+
+r:"^열성 관객$"="Loyal Listener"
+
+<color\=#66ccff>『열성 관객』</color>=<color\=#66ccff>[Loyal Listener]</color>
+
+사카이 아야카 공격력에 따라 공격력 증가를 획득한다.=Increase ATK based on your ATK.
+
+
+♪나의 빛♪=♪ My Light ♪
+
+r:"^『피날레: 음역 가동』은 초기 1턴의 쿨타임을 가지며, 해당 스킬을 사용한 후 자신의 공격력이 증가한다. 이후 해당 스킬의 쿨타임은 1턴씩 증가하며 최대 3턴을 초과하지 않는다.$"="<size\=25>[Finale: Range Unleash] starts with a 1 turn cooldown, increases ATK after using that skill and increases its cooldown by 1 turn, up to 3 turns.</size>"
+
+@Detailed
+r:"^전투 진입 시 『피날레: 음역 가동』의 쿨타임이 1턴 있으며, 『피날레: 음역 가동』 사용 시마다 자신의 공격력이 (\d+%) 영구 증가한다\(2회 중첩 가능\). 그 후 『피날레: 음역 가동』의 추가 쿨타임이 영구적으로 1턴 증가하며, 최대 3턴을 초과하지 않는다.$"="At the start of battle, [Finale: Range Unleash] has a 1 turn cooldown. Permanently increases own ATK by $1 after using [Finale: Range Unleash], up to 2 stacks. Afterwards permanently increases the cooldown for [Finale: Range Unleash] by 1 turn, up to 3 turns."
+
+
+
+악센트=Stress
+
+r:"^악센트 Lv.(\d+)$"="Stress Lv.$1"
+r:"^아군 괴도가 HIGHLIGHT 사용 시, 1턴 동안 해당 괴도의 공격력이 즉시 <color\=#FFFC40>(\d+\.\d+%)</color> 증가한다. 해당 괴도가 열성 관객이라면 효과가 1.5배로 증가한다.$"="When an ally uses HIGHLIGHT, immediately increase their ATK by <color\=#FFFC40>$1</color> for 1 turn; Increase this effect by 1.5x if they are the Loyal Listener."
+
+r:"^友方怪盜使用HIGHLIGHT時，立刻提升其<color\=#0169ca>(\d+\.\d+%)</color>攻擊力，持續1回合；如果此人是忠實聽眾則效果提升為1.5倍。$"="When an ally uses HIGHLIGHT, immediately increase their ATK by <color\=#0169ca>$1</color> for 1 turn; Increase this effect by 1.5x if they are the Loyal Listener."
+
+
+스트로크=Sweep Picking
+
+r:"^스트로크 Lv.(\d+)$"="Sweep Picking Lv.$1"
+
+
+\\\NOT WORKING???
+@r:"^아군 괴도가 HIGHLIGHT를 사용한 후, 사카이 아야카는 생명 비율이 가장 낮은 동료에게 즉시 사카이 공격력 <color\=#FFFC40>(\d+\.\d+%)</color>+<color\=#FFFC40>(\d+)</color>의 생명을 회복시킨다.$"="After an ally uses HIGHLIGHT, restores <color\=#FFFC40>$1</color> ATK + <color\=#FFFC40>$2</color> HP to the lowest HP% ally."
+
+
+
+
+@r:"^友方怪盜使用HIGHLIGHT後，{{A}}立刻對生命值百分比最低的同伴恢復相當於{{B}}<color\=#0169ca>(\d+\.\d+%)</color>攻擊力\+<color\=#0169ca>(\d+)</color>的生命值。$"="After an ally uses HIGHLIGHT, restores <color\=#0169ca>$1</color> ATK + <color\=#0169ca>$2</color> HP to the lowest HP% ally."
+
 
 
 ----------
