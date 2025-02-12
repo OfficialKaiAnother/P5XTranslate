@@ -434,9 +434,51 @@ r:"^보유 표식: (\d+)"="Marks Held: $1"
 ----------
 UI - Metaverse Descriptions
 ----------
-이곳은 강력한 섀도가 점거하고 있습니다. 특정 유형의 스킬을 사용하면 유효한 공격을 할 수 있습니다. 도전 성공 시 신비한 계시 카드를 획득할 수 있습니다.=This area is occupied by a powerful Shadow. You can make effective attacks by using certain types of skills. Successfully completing the challenge will reward you with a mysterious Revelation card.
 
-전체 괴도의 <color\=#ff0036>추가 효과</color>로 주는 대미지가 50% 증가한다.=Full Tuber <color\=#ff0036>Additional Effect</color>increases damage dealt by 50%.
+화염 영역=Flame Domain
+r:"전체 괴도의 <color\=#ff381d>화염</color> 대미지가 (\d+%) 증가한다."="Thieves' <color\=#ff381d>Fire</color> DMG is increased by $1."
+
+동결 영역=Freeze Zones
+r:"전체 괴도의 <color\=#00aeff>빙결</color> 대미지가 (\d+%) 증가한다."="Thieves' <color\=#00aeff>Ice</color> DMG is increased by $1."
+
+
+질풍 영역=Wind Domain
+r:"전체 괴도의 <color\=#81ea2c>질풍</color> 대미지가 50% 증가한다."="Thieves' <color\=#81ea2c>Wind</color> DMG is increased by 50%."
+
+핵열 영역=Nuclear Domain
+r:"전체 괴도의 <color\=#00fcff>핵열</color> 대미지가 50% 증가한다."="Thieves' <color\=#00fcff>Nuclear</color> DMG is increased by 50%."
+
+전격 영역=Elec Domain
+r:"전체 괴도의 <color\=#fbff37>전격</color> 대미지가 50% 증가한다."="Thieves' <color\=#fbff37>Electric</color> DMG is increased by 50%."
+
+주원 영역=Curse Domain
+r:"전체 괴도의 <color\=#ff0036>주원</color> 대미지가 50% 증가한다."="Thieves' <color\=#ff0036>Curse</color> DMG is increased by 50%."
+
+염동 영역=Psy Domain
+r:"전체 괴도의 <color\=#ff63ff>염동</color> 대미지가 50% 증가한다."="Thieves' <color\=#ff63ff>Psy</color> DMG is increased by 50%."
+
+축복 영역=Bless Domain
+r:"전체 괴도의 <color\=#fffea0>축복</color> 대미지가 50% 증가한다."="Thieves' <color\=#fffea0>Bless</color> DMG is increased by 50%."
+
+
+추가 영역=AF Domain
+r:"전체 괴도의 <color\=#ff0036>추가 효과</color>로 주는 대미지가 50% 증가한다."="Thieves' <color\=#ff0036>Additional Effect</color> DMG is increased by 50%."
+
+
+HL 영역=HL Domain
+r:"전체 괴도의 <color\=#ff0036>HL</color>로 주는 대미지가 50% 증가한다."="Thieves' <color\=#ff0036>Highlight</color> DMG is increased by 50%."
+
+이곳은 강력한 섀도가 점거하고 있습니다. 특정 속성의 스킬을 사용하면 유효한 공격을 할 수 있습니다. 도전 성공 시 신비한 계시 카드를 획득할 수 있습니다.=<size\=24>This domain is occupied by a powerful Shadow. You can deal additional damage by using skills of a specific attribute. Upon a successful challenge, you will obtain a Mysterious Revelation Card.</size>
+
+
+
+
+
+
+
+
+
+
 
 
 ----------
