@@ -91,7 +91,7 @@ r:"^동료 <color\=#FFFF00>1명</color>을 선택하여 <link\="s\|190"><u>『�
 r:"^1명의 동료를 선택하여 <link\="s\|190"><u>『열성 관객』</u></link>으로 만들면 <link\="s\|190"><u>『열성 관객』</u></link>의 공격력이 사카이 아야카 공격력의 (\d+%)만큼 증가하며 3턴 동안 지속된다\(최대 <color\=#FFFC40>(\d+)</color>\). <link\="s\|190"><u>『열성 관객』</u></link>은 동시에 1명만 보유할 수 있다.\n<b><size\=28><color\=#850101>울려 퍼지는 환호를 받으며 무대에 올라서는 로큰롤의 여왕은 결코 팬들을 실망시키지 않는다.</color></size></b>$"="Selects 1 ally to become the <link\="s|190"><u>[Loyal Listener]</u></link>，increases their ATK by $1 of your own ATK for 3 turns, up to <color\=#FFFC40>$2</color>. There can only be 1 <link\="s|190"><u>[Loyal Listener]</u></link> at a time.\n<b><size\=28><color\=#850101>Let's make your debut in front of the loudest cheers, the Queen of Rock and Roll will not let Loyal Listener down!</color></size></b>"
 
 
-
+\\Menu Translations
 
 @Finale: Range Unleashed
 r:"^동료 <color\=#FFFF00>1명</color>을 선택하여 즉시 HIGHLIGHT 스킬을 시전한다. 동시에 이번 HIGHLIGHT의 대미지가 (\d+\.\d+%) 증가한다.$"="Selects <color\=#FFFF00>1</color> ally, immediately uses their HIGHLIGHT and increase that HIGHLIGHT damage by $1"
@@ -116,7 +116,7 @@ r:"^열성 관객$"="Loyal Listener"
 
 r:"^『피날레: 음역 가동』은 초기 1턴의 쿨타임을 가지며, 해당 스킬을 사용한 후 자신의 공격력이 증가한다. 이후 해당 스킬의 쿨타임은 1턴씩 증가하며 최대 3턴을 초과하지 않는다.$"="<size\=25>[Finale: Range Unleash] starts with a 1 turn cooldown, increases ATK after using that skill and increases its cooldown by 1 turn, up to 3 turns.</size>"
 
-@Detailed
+\\Detailed
 r:"^전투 진입 시 『피날레: 음역 가동』의 쿨타임이 1턴 있으며, 『피날레: 음역 가동』 사용 시마다 자신의 공격력이 (\d+%) 영구 증가한다\(2회 중첩 가능\). 그 후 『피날레: 음역 가동』의 추가 쿨타임이 영구적으로 1턴 증가하며, 최대 3턴을 초과하지 않는다.$"="At the start of battle, [Finale: Range Unleash] has a 1 turn cooldown. Permanently increases own ATK by $1 after using [Finale: Range Unleash], up to 2 stacks. Afterwards permanently increases the cooldown for [Finale: Range Unleash] by 1 turn, up to 3 turns."
 
 
@@ -126,6 +126,8 @@ r:"^전투 진입 시 『피날레: 음역 가동』의 쿨타임이 1턴 있으
 r:"^악센트 Lv.(\d+)$"="Stress Lv.$1"
 r:"^아군 괴도가 HIGHLIGHT 사용 시, 1턴 동안 해당 괴도의 공격력이 즉시 <color\=#FFFC40>(\d+\.\d+%)</color> 증가한다. 해당 괴도가 열성 관객이라면 효과가 1.5배로 증가한다.$"="When an ally uses HIGHLIGHT, immediately increase their ATK by <color\=#FFFC40>$1</color> for 1 turn; Increase this effect by 1.5x if they are the Loyal Listener."
 
+
+\\Combat Arts
 r:"^友方怪盜使用HIGHLIGHT時，立刻提升其<color\=#0169ca>(\d+\.\d+%)</color>攻擊力，持續1回合；如果此人是忠實聽眾則效果提升為1.5倍。$"="When an ally uses HIGHLIGHT, immediately increase their ATK by <color\=#0169ca>$1</color> for 1 turn; Increase this effect by 1.5x if they are the Loyal Listener."
 
 
@@ -134,8 +136,11 @@ r:"^友方怪盜使用HIGHLIGHT時，立刻提升其<color\=#0169ca>(\d+\.\d+%)<
 r:"^스트로크 Lv.(\d+)$"="Sweep Picking Lv.$1"
 
 
-\\\NOT WORKING???
-@r:"^아군 괴도가 HIGHLIGHT를 사용한 후, 사카이 아야카는 생명 비율이 가장 낮은 동료에게 즉시 사카이 공격력 <color\=#FFFC40>(\d+\.\d+%)</color>+<color\=#FFFC40>(\d+)</color>의 생명을 회복시킨다.$"="After an ally uses HIGHLIGHT, restores <color\=#FFFC40>$1</color> ATK + <color\=#FFFC40>$2</color> HP to the lowest HP% ally."
+\\Stress
+@아군 괴도가 HIGHLIGHT를 사용한 후, 사카이 아야카는 생명 비율이 가장 낮은 동료에게 즉시 사카이 공격력 <color\=#FFFC40>15.0%</color>+<color\=#FFFC40>1350</color>의 생명을 회복시킨다.=After the allied bait used highlight, Sakai Ayaka immediately to a colleague with the lowest proportion of life. <color\=#FFFC40>15.0%</color>+<color\=#FFFC40>1350</color>Restores the life of.
+
+\\Sweep Picking
+r:"^아군 괴도가 HIGHLIGHT를 사용한 후, 사카이 아야카는 생명 비율이 가장 낮은 동료에게 즉시 사카이 공격력 <color\=#FFFC40>(\d+\.\d+%)</color>\+<color\=#FFFC40>(\d+)</color>의 생명을 회복시킨다.$"="When an ally uses their HIGHLIGHT, Chord immediately heals the ally with the lowest HP by <color\=#FFFC40>$1</color> + <color\=#FFFC40>$2</color> of Chord's ATK."
 
 
 
@@ -150,6 +155,9 @@ Violet - Kasumi Yoshizawa
 
 @Glimmer of Night
 r:"^액티브로 해당 스킬 사용 시 <color\=#FFFF00>1명의 적</color>에게 공격력 (\d+\.\d+%)의 축복 속성 대미지를 주고 자신은 <link\="s\|215"><u>춤사위</u></link> 『브레이브 스텝』을 획득한다\((\d+)회 중첩 가능\). 댄스 파트너가 해당 스킬 사용 시 스킬 효과는 <color\=#FFFF00>1명의 적</color>에게 공격력 (\d+\.\d+%)의 축복 속성 대미지를 주고, 자신은 <link\="s\|215"><u>춤사위</u></link> 『브레이브 스텝』을 획득한다\((\d+)회 중첩 가능\).$"="When you manually use this skill, deals $1 ATK Bless damage to <color\=#FFFF00>1 enemy</color>, and gains <link\="s|215"><u>Posture</u></link> [Brave Step], up to a $2 stack. When Dance Partner triggers this skill, deals $3 ATK Bless damage to <color\=#FFFF00>1 enemy</color>, and gains <link\="s|215"><u>Posture</u></link> [Brave Step], up to a $4 stack."
+
+
+
 
 @Dancing In Hand
 r:"^(\d+)턴 동안 <color\=#FFFF00>1명의 동료</color>를 선택해 『댄스 파트너』로 삼는다. 자신과 『댄스 파트너』의 공격력이 (\d+)턴 동안 (\d+\.\d+%) 증가한다. 자신이 <link\="s\|215"><u>춤사위</u></link> 『스위프트 스텝』을 획득한다\((\d+)회 중첩 가능\). 『댄스 파트너』가 페르소나 스킬을 사용하면 자신이 즉시 임의 적 목표에게 『어둠 속 빛』을 1회 시전한다\(『댄스 파트너』의 스킬 목표가 적일 경우, 스킬 메인 목표를 향해 『어둠 속 빛』을 1회 시전함)\. 『댄스 파트너』는 동시에 1명만 존재할 수 있다.$"="Selects <color\=#FFFF00>1 ally</color> to become the [Dance Partner] for $1 turn. Increases own and [Dance Partner] ATK by $3 for $2 turns. Gains <link\="s|215"><u>Posture</u></link> [Agile Step], up to $4 stack. After [Dance Partner] use a Persona skill, immediately use [Glimmer of Night] on 1 random enemy (If [Dance Partner] used a skill that target an enemy, change the main target of [Glimmer of Night] to that enemy). There can only be 1 [Dance Partner]."
@@ -172,7 +180,6 @@ r:"^<color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 화염 속
 
 @Skill 3
 r:"^<nobr>묘도에 불을 붙여 자신이 『철꽃의 춤』 상태에 진입하여, 주는 대미지가 (\d+\.\d+%) 증가하고, 기간 동안 근접 공격이 『불꽃놀이 유성』으로 강화된다. 효과는 (\d+)턴 동안 또는 『불꽃놀이 유성』을 시전할 때까지 지속된다.\n『불꽃놀이 유성』: <color\=#FFFF00>모든</color> 적에게 공격력 (\d+\.\d+%)의 화염 속성 대미지와 화염 속성 TECHNICAL을 주며, 폭발 연소 발동 시 TECHNICAL 효과가 (\d+%)까지 증가한다.\n초기에 (\d+)턴의 쿨타임을 가지며, 해당 스킬 사용 한 턴에서 여전히 다른 스킬을 사용할 수 있다. 해당 스킬은 페르소나 스킬로 간주하지 않는다.$"="Applies fire to your sword and enters [Iron Flower Dance]: Increases DMG Dealt by $1, upgrades your Melee Attack to [Fiery Shooting Star] for $2 turn or until you use [Fiery Shooting Star].\n[Fiery Shooting Star]: Deals $3 ATK Fire damage to <color\=#FFFF00>all</color> enemies and triggers Fire TECHNICAL, when triggering Backdraft, increases TECHNICAL effect by $4.\nStarts with a $5 turn cooldown, you can still use other skills after using this skill, this skill is not seen as a Persona skill."
-
 
 
 
