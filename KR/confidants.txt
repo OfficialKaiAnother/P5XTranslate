@@ -9,6 +9,24 @@ sr:"^(.*?\s*) 전용 이모티콘팩.\\n(.*?\s*)(와|과)의 협력자 레벨업
 sr:"^(.*?\s*) 전용 이모티콘팩.\\n(.*?\s*) 「절친」 관계 달성 보상.$"=An exclusive emote pack for $1. Reward for achieving the $2 『Best Friend』 relationship.
 sr:"^(.*?\s*) 전용 이모티콘팩.\\n(.*?\s*) 「소울메이트」 관계 달성 보상.$"=An exclusive emote pack for $1. Reward for achieving the $2 『Soulmate』 relationship.
 
+협력 효과=Confidant Effects
+
+
+
+생일=Birthday
+별자리=Horoscope
+나이=Age
+직업=Occupation
+@키=Key
+체중=Weight
+혈액형=Blood Type
+관심사=Interests
+특기=Strengths
+
+캐릭터 상세정보=Character Details
+r:"^개인 자료 ([0-9]{1,2})$"=Personal Data $1
+
+
 ++++ ----- Ruferu ----- ++++
 <color\=#FF0000>루페르</color>는 다양한 이세계 탐험 기술을 가지고 있으며, 당신에게 <color\=#FF0000>잠입 아이템 제작</color>을 가르쳐 줄 수 있습니다.=<size\=28><color\=#FF0000>Ruferu</color> has a variety of Metaverse exploration techniques, and can teach you to craft <color\=#FF0000>Infiltration Tools.</color></size>
 
