@@ -84,7 +84,299 @@ Boss: Shadow Kiuchi
 
 --- Normal Generalized Skills ---
 
+빙결=Ice
+물리=Physical
+총격=Gun
+화염=Fire
+전격=Electric
+질풍=Wind
+염동=Psy
+핵열=Nuclear
+축복=Bless
+주원=Curse
+만능=Almighty
+
+
+혼란=Confuse
+수면=Sleep
+공포=Fear
+현기증=Dizzy
+망각=Forget
+세뇌=Brainwash
+풍습=Winded
+
+<link\="s|105"><u>풍습</u></link>=<link\="s|105"><u>Winded</u></link>
+<link\="s|104"><u>감전</u></link>=<link\="s|104"><u>Shock</u></link>
+<link\="s|103"><u>동결</u></link>=<link\="s|103"><u>Frozen</u></link>
+<link\="s|102"><u>화상</u></link>=<link\="s|102"><u>Burn</u></link>
+
+
+<color\=#66ccff>원소 이상</color>=<color\=#66ccff>Elemental Ailments</color>
+
+
+
+화상, 빙결, 감전, 풍습 위 4가지 상태는 원소 이상에 속한다.=Burn, Freeze, Shock, and Winded are all considered Elemental Ailments.
+
+
+
+<color\=#66ccff>정신 이상</color>=<color\=#66ccff>Mental Ailments</color>
+현기증, 망각, 수면, 광노, 절망, 공포, 혼란, 세뇌 위 8가지 상태는 정신 이상에 속한다.=Dizzy, Forget, Sleep, Rage, Despair, Fear, Confuse, and Brainwash are all considered Mental Ailments.
+
+
+
+
+
 //ST
-sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 준다."="Deals <color\=#fffc40>$1</color> ATK $2 damage to <color\=#FFFF00>1</color> enemy."
+sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 준다."=Deals <color\=#fffc40>$1</color> ATK as $2 DMG to <color\=#FFFF00>1</color> enemy.
 
 //ST Multi-Hit Random
+sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 (\d+\~\d+)회 준다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to <color\=#FFFF00>1</color> enemy $3 times.
+
+//ST Multi-Hit Constant
+sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 (\d+)회 준다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to <color\=#FFFF00>1</color> enemy $3 times.
+
+
+//ST + Ailment
+
+//IDK WHY AILMENT LINKS ARENT WORKING WITH THIS
+sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 주고, 2턴 동안 <color\=#fffc40>(\d+\.\d+%)</color>의 기본 확률로 적을 (.*) 상태에 빠뜨린다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to 1 enemy, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 2 turns.
+
+//ST + Ailment (Elements)
+sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 주고, <color\=#fffc40>(\d+\.\d+%)</color>의 기본 확률로 적을 2턴 동안 (.*) 상태에 빠뜨린다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to 1 enemy, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 2 turns.
+
+
+
+sr:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 주고, 3턴 동안 <color\=#fffc40>(\d+\.\d+%)</color>의 기본 확률로 적을 (.*) 상태에 빠뜨린다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to 1 enemy, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 3 turns.
+
+//AoE
+sr:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 준다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to <color\=#FFFF00>all</color> enemies.
+
+//AoE Multi-Hit Random
+sr:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 (\d+\~\d+)회 준다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to <color\=#FFFF00>all</color> enemies $3 times.
+
+//AoE + Ailment (2 turns)
+sr:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 주고, 3턴 동안 <color\=#fffc40>(\d+\.\d+%)</color>의 기본 확률로 적을 (.*) 상태에 빠뜨린다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to all enemies, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 3 turns.
+sr:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 주고, 2턴 동안 <color\=#fffc40>(\d+\.\d+%)</color>의 기본 확률로 적을 (.*) 상태에 빠뜨린다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to all enemies, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 2 turns.
+
+//ST + Ailment (Elements)
+sr:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 (.*) 속성 대미지를 주고, <color\=#fffc40>(\d+\.\d+%)</color>의 기본 확률로 적을 2턴 동안 (.*) 상태에 빠뜨린다."=Deals <color\=#FFFF00>$1</color> ATK as $2 damage to all enemies, with a <color\=#FFFF00>$3</color> base chance to inflict $4 for 2 turns.
+
+
+
+//AoE + Ailment (3 turns)
+sr:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的(.*)屬性傷害，有<color\=#fffc40>(\d+\.\d+%)</color>基礎機率使敵人陷入(.*)狀態，效果持續3回合。"=Deals <color\=#FFFF00>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> enemies and has a <color\=#FFFF00>$3</color> chance of inflicting $4 for 3 turns.
+
+//AoE + Reduce DEF
+sr:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的(.*)屬性傷害，並使其防禦力降低<color\=#fffc40>(\d+\.\d+%)</color>，效果持續2回合。"=Deals <color\=#FFFC40>$1</color> ATK $2 damage to <color\=#FFFF00>all</color> enemies and decreases their DEF by <color\=#FFFC40>$3</color> for 2 turns.
+
+//AoE + Ailment on main target
+sr:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的(.*)屬性傷害，並有<color\=#fffc40>(\d+\.\d+%)</color>基礎機率使主目標敵人陷入(.*)狀態，效果持續2回合。"=Deals <color\=#FFFF00>$1</color> ATK $2 damage to all enemies and has a <color\=#FFFF00>$3</color> chance of inflicting $4 to the main target for 2 turns.
+
+//AoE + Guaranteed Ailment on main target
+sr:"對所有敵人造成<color\=#fffc40>(\d+\.\d+%)</color>攻擊力的(.*)屬性傷害，有100%的固定機率使技能主目標陷入(.*)狀態。"=Deals <color\=#FFFF00>$1</color> ATK $2 damage to all enemies and has a 100% fixed chance of inflicting $3 to the main target for 2 turns.
+
+
+--- Psy ---
+
+//ST
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 염동 속성 대미지를 주고, <link\="s\|106"><u>정신 이상</u></link> 상태의 적에게 <link\="s\|211"><u>TECHNICAL</u></link>을 준다. 스킬 대미지는 (\d+%) 증가한다."="Deals <color\=#FFFF00>$1</color> ATK as Psy damage to <color\=#FFFF00>1</color> enemy. Triggers <link\="s|211"><u>TECHNICAL</u></link> to enemy inflicted with any <link\=s|106><u>Mental Ailment</u></link>, increases skill damage by $2."
+
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 염동 속성 대미지를 주고, <link\="s\|106"><u>정신 이상</u></link> 상태의 적에게 <link\="s\|211"><u>TECHNICAL</u></link>을 준다. 스킬 대미지는 (\d+%) 증가한다."="Deals <color\=#FFFF00>$1</color> ATK Psy damage to <color\=#FFFF00>all</color> enemies. Triggers <link\="s|211"><u>TECHNICAL</u></link> to enemies inflicted with any <link\=s|106><u>Mental Ailment</u></link>, increases skill damage by $2."
+
+
+
+--- Nuke ---
+
+//Basic Nuke ST
+r:"^1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 핵열 속성 대미지를 주고, <link\="s\|101"><u>원소 이상</u></link> 상태의 적에게 <link\="s\|211"><u>TECHNICAL</u></link>을 준다. 스킬 대미지는 (\d+%) 증가한다.$"="Deals <color\=#FFFF00>$1</color> ATK Nuclear damage to <color\=#FFFF00>1</color> enemy. Triggers <link\="s|211"><u>TECHNICAL</u></link> to enemy inflicted with any <link\="s|101"><u>Elemental Ailment</u></link>, increases skill damage by $2."
+
+//Basic Nuke AoE
+r:"^모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 핵열 속성 대미지를 주고, <link\="s\|101"><u>원소 이상</u></link> 상태의 적에게 <link\="s\|211"><u>TECHNICAL</u></link>을 준다. 스킬 대미지는 (\d+%) 증가한다.$"="Deals <color\=#FFFF00>$1</color> ATK Nuclear damage to <color\=#FFFF00>all</color> enemies. Triggers <link\="s|211"><u>TECHNICAL</u></link> to enemies inflicted with any <link\="s|101"><u>Elemental Ailment</u></link>, increases skill damage by $2."
+
+
+--- Bless ---
+
+//ST Bless with varying stacks
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 자신은 <link\="s\|111"><u>축복</u></link> 효과 (\d+\~\d+)개를 획득한다."=Deals <color\=#FFFF00>$1</color> ATK as Bless damage to <color\=#FFFF00>1</color> enemy and gains $2 stack(s) of <link\=s|111><u>Bless</u></link>.
+
+//ST Bless with constant stacks
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 자신은 <link\="s\|111"><u>축복</u></link> 효과 (\d+)개를 획득한다."=Deals <color\=#FFFF00>$1</color> ATK as Bless damage to <color\=#FFFF00>1</color> enemy and gains $2 stack(s) of <link\=s|111><u>Bless</u></link>.
+
+//AoE Bless with varying stacks
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 자신은 <link\="s\|111"><u>축복</u></link> 효과 (\d+\~\d+)개를 획득한다."=Deals <color\=#FFFF00>$1</color> ATK as Bless damage to <color\=#FFFF00>all</color> enemies and gains $2 stack(s) of <link\=s|111><u>Bless</u></link>.
+
+//ST Bless Instakill
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 생명이 50% 이하인 적에게 낮은 확률로 축복 속성 즉사 효과를 추가하며 생명이 낮을수록 확률이 높아진다."=Deals <color\=#FFFF00>$1</color> ATK Bless damage to <color\=#FFFF00>1</color> enemy with a chance of insta-kill to enemies under 50% HP. The lower the HP, the higher the chance.
+
+//AoE Bless Instakill
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 생명이 50% 이하인 적에게 낮은 확률로 축복 속성 즉사 효과를 추가하며 생명이 낮을수록 확률이 높아진다."=Deals <color\=#FFFF00>$1</color> ATK as Bless damage to <color\=#FFFF00>all</color> enemies with a chance of insta-kill to enemies under 50% HP. The lower the HP, the higher the chance.
+
+--- Curse ---
+
+/ST Curse with varying stacks
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 주원 속성 대미지를 주고, 적이 <link\="s\|112"><u>주원</u></link> 효과 (\d+\~\d+)개를 획득한다."=Deals <color\=#FFFF00>$1</color> ATK as Curse damage to <color\=#FFFF00>1</color> enemy and inflicts $2 stack(s) of <link\=s|112><u>Curse</u></link>.
+
+//ST Curse with constant stacks
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 주원 속성 대미지를 주고, 적이 <link\="s\|112"><u>주원</u></link> 효과 (\d+)개를 획득한다."=Deals <color\=#FFFF00>$1</color> ATK as Curse damage to <color\=#FFFF00>1</color> enemy and inflicts $2 stack(s) of <link\=s|112><u>Curse</u></link>.
+
+
+//AoE Curse with varying stacks
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 주원 속성 대미지를 주고, 일정 확률로 적에게 <link\="s\|112"><u>주원</u></link> 효과 (\d+)개를 추가한다."=Deals <color\=#FFFF00>$1</color> ATK as Curse damage to <color\=#FFFF00>all </color>enemies with a chance to inflict $2 stack(s) of <link\=s|112><u>Curse</u></link>.
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 주원 속성 대미지를 주고, 일정 확률로 적이 <link\="s\|112"><u>주원</u></link> 효과 (\d+)개를 획득한다."=Deals <color\=#FFFF00>$1</color> ATK as Curse damage to <color\=#FFFF00>all </color>enemies with a chance to inflict $2 stack(s) of <link\=s|112><u>Curse</u></link>.
+
+//AoE Curse with constant stacks
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 주원 속성 대미지를 주고, 적이 <link\="s\|112"><u>주원</u></link> 효과 (\d+)개를 획득한다."=Deals <color\=#FFFF00>$1</color> ATK as Curse damage to <color\=#FFFF00>all </color>enemies and inflicts $2 stack(s) of <link\=s|112><u>Curse</u></link>.
+
+
+
+//ST Bless Instakill
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 생명이 50% 이하인 적에게 낮은 확률로 축복 속성 즉사 효과를 추가하며 생명이 낮을수록 확률이 높아진다."=Deals <color\=#FFFF00>$1</color> ATK Bless damage to <color\=#FFFF00>1</color> enemy with a chance of insta-kill to enemies under 50% HP. The lower the HP, the higher the chance.
+
+//AoE Bless Instakill
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 생명이 50% 이하인 적에게 낮은 확률로 축복 속성 즉사 효과를 추가하며 생명이 낮을수록 확률이 높아진다."=Deals <color\=#FFFF00>$1</color> ATK as Bless damage to <color\=#FFFF00>all</color> enemies with a chance of insta-kill to enemies under 50% HP. The lower the HP, the higher the chance.
+
+// Single Target Basic Insta-kills
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 주원 속성 대미지를 주고, 생명이 50% 이하인 적에게 낮은 확률로 주원 속성 즉사 효과를 추가하며 생명이 낮을수록 확률이 높아진다."=Deals <color\=#FFFF00>$1</color> ATK Curse damage to <color\=#FFFF00>1</color> enemy with a chance of insta-kill to enemies under 50% HP. The lower the HP, the higher the chance.
+
+// AoE Curse Instakill
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 주원 속성 대미지를 주고, 생명이 50% 이하인 적에게 낮은 확률로 주원 속성 즉사 효과를 추가하며 생명이 낮을수록 확률이 높아진다."=Deals <color\=#FFFF00>$1</color> ATK Curse damage to <color\=#FFFF00>all</color> enemies with a chance of insta-kill to enemies under 50% HP. The lower the HP, the higher the chance.
+
+
+--- Almighty ---
+
+// AoE Almighty
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 만능 속성 대미지를 주고, 적의 방어력을 무시한다."=Deals <color\=#fffc40>$1</color> ATK Almighty damage to <color\=#fffc40>all</color> enemies, ignoring DEF.
+
+//ST Almighty
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 만능 속성 대미지를 주고, 적의 방어력을 무시한다."=Deals <color\=#fffc40>$1</color> ATK Almighty damage to <color\=#fffc40>1</color> enemy, ignoring DEF.
+
+//Spirit Drain
+r:"적 1명의 SP <color\=#fffc40>(\d+)</color>포인트를 흡수한다."=Drains <color\=#fffc40>$1</color> SP from 1 enemy.
+
+//Life Drain
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 만능 대미지를 주고 방어력을 무시하며, 자신은 생명을 공격력 <color\=#fffc40>(\d+\.\d+%)</color>만큼 회복한다."=Deals <color\=#fffc40>$1</color> ATK Almighty damage to <color\=#fffc40>1</color> enemy, ignoring DEF\nRestore HP equal to <color\=#fffc40>$1</color> ATK.
+
+
+--- Recovery ---
+
+// ST Heal
+sr:"동료 1명이 공격력 <color\=#fffc40>(\d+\.\d+%)</color>\+<color\=#fffc40>(\d+)</color>의 생명을 회복한다."=Restore HP equal to <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> to 1 ally.
+
+// AoE Heal
+r:"^모든 동료가 공격력 <color\=#fffc40>(\d+\.\d+%)</color>\+<color\=#fffc40>(\d+)</color>의 생명을 회복한다.+$"=Restore HP equal to <color\=#fffc40>$1</color> ATK + <color\=#fffc40>$2</color> to all allies.
+
+// Patra
+r:"^동료 1명의 <link\="s\|107"><u>현기증</u></link>, <link\="s\|109"><u>수면</u></link>, <link\="s\|108"><u>망각</u></link> 효과를 제거한다.$"=Cures <link\=s|107><u>Dizzy</u></link>/<link\=s|109><u>Sleep</u></link>/<link\=s|108><u>Forget</u></link> for 1 ally.
+
+//Energy Drop
+r:"^동료 1명의 <link\="s|156"><u>혼란</u></link>, <link\="s|157"><u>공포</u></link>, <link\="s|155"><u>절망</u></link>, <link\="s|110"><u>광노</u></link>, <link\="s|158"><u>세뇌</u></link> 효과를 제거한다.$"=Cures <link\=s|156><u>Confuse</u></link>/<link\=s|157><u>Fear</u></link>/<link\=s|155><u>Despair</u></link>/<link\=s|110><u>Rage</u></link>/<link\=s|158><u>Brainwash</u></link> for 1 ally.
+
+//Baisudi
+r:"^동료 1명의 <link\="s\|102"><u>화상</u></link>, <link\="s\|103"><u>동결</u></link>, <link\="s\|104"><u>감전</u></link>, <link\="s\|105"><u>풍습</u></link> 효과를 제거한다.$"=Cures <link\=s|102><u>Burn</u></link>/<link\=s|103><u>Freeze</u></link>/<link\=s|104><u>Shock</u></link>/<link\=s|105><u>Winded</u></link> for 1 ally.
+
+
+
+--- Buffs ---
+
+// Tarukaja
+r:"동료 1명의 공격력이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 공격력 500포인트마다 <color\=#fffc40>(\d+\.\d+%)</color> 추가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases 1 ally's ATK by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 500 ATK you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+// Matarukaja
+r:"모든 동료의 공격력이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 공격력 500포인트마다 <color\=#fffc40>(\d+\.\d+%)</color> 추가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases all allies' ATK by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 500 ATK you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+//Rakukaja
+r:"동료 1명의 방어력이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 방어력 500마다 <color\=#fffc40>(\d+\.\d+%)</color> 추가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases 1 ally's DEF by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 500 DEF you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+// Marakukaja
+r:"모든 동료의 방어력이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 방어력 500마다 <color\=#fffc40>(\d+\.\d+%)</color> 추가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases all allies' DEF by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 500 DEF you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+// Sukukaja
+r:"동료 1명의 효과 명중, 효과 저항이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 효과 명중 25%마다 <color\=#fffc40>(\d+\.\d+%)</color> 추가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases 1 ally's Effect Hit Rate and Effect RES by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 25% Effect Hit Rate you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+// Masukukaja
+r:"모든 동료의 효과 명중, 효과 저항이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 효과 명중 25%마다 <color\=#fffc40>(\d+\.\d+%)</color> 추가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases all allies' Effect Hit Rate and Effect RES by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 25% Effect Hit Rate you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+//Rebellion
+r:"동료 1명의 크리티컬 확률이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 크리티컬 확률 10%마다 <color\=#fffc40>(\d+\.\d+%)</color> 추가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases 1 ally's CRIT Rate by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 10% CRIT Rate you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+//Revolution
+r:"모든 동료의 크리티컬 확률이 <color\=#fffc40>(\d+\.\d+%)</color> 증가하고, 자신의 크리티컬 확률 10%마다 추가로<color\=#fffc40>(\d+\.\d+%)</color>가 증가한다. 상한은 <color\=#fffc40>(\d+\.\d+%)</color>이며, 효과는 3턴 동안 지속된다."=Increases all allies' CRIT Rate by <color\=#fffc40>$1</color> + <color\=#fffc40>$2</color> for every 10% CRIT Rate you have, up to <color\=#fffc40>$3</color> for 3 turns.
+
+//Charge
+@r:"使自身下1次造成的物理屬性傷害提升<color\=#fffc40>(\d+\.\d+%)</color>，效果持續1回合。"=Increases your next Physical attack damage by <color\=#fffc40>$1</color> for 1 turn.
+
+//Concentrate
+r:"자신의 다음 마법 속성 대미지가 <color\=#fffc40>(\d+\.\d+%)</color> 증가하며 1턴 동안 지속된다."=Increases your next Magic attack damage by <color\=#fffc40>$1</color> for 1 turn.
+
+
+--- Debuffs ---
+
+//Rakunda
+r:"3턴 동안 적 1명의 방어력이 <color\=#fffc40>(\d+\.\d+%)</color> 감소한다."=Decreases 1 enemy's DEF by <color\=#fffc40>$1</color> for 3 turns.
+
+// Marakunda
+r:"3턴 동안 모든 적의 방어력이 <color\=#fffc40>(\d+\.\d+%)</color> 감소한다."=Decreases all enemies' DEF by <color\=#fffc40>$1</color> for 3 turns.
+
+//Tarunda
+r:"3턴 동안 적 1명의 공격력이 <color\=#fffc40>(\d+\.\d+%)</color> 감소한다."=Decreases 1 enemy's ATK by <color\=#fffc40>$1</color> for 3 turns.
+
+// Matarunda
+@r:"使所有敵人的攻擊力降低<color\=#fffc40>(\d+\.\d+%)</color>，效果持續3回合。"=Decreases all enemies' ATK by <color\=#fffc40>$1</color> for 3 turns.
+
+
+
+
+// Tiger Shot (Janosik)
+r:"^1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 총격 속성 대미지를 주고, (\d+%)의 고정 확률로 적이 『조준』을 획득한다. 『조준』: (\d+)턴 동안 적의 방어력이 <color\=#fffc40>(\d+\.\d+%)</color> 감소한다.\n<b><size\=28><color\=#024068>총알이 빠르게 공이에 부딪혀 화약을 터뜨린 후 연기 속에서 치명적인 일격을 날려 속성 대미지를 준다. 적이 조준 상태인 경우 대미지가 증가한다.</color></size></b>$"="Deals <color\=#fffc40>$1</color> ATK Gun damage to 1 enemy, with a $2 fixed chance to inflict the enemy with [Aim]: Decrease DEF by <color\=#fffc40>$4</color> for $3 turns.\n<b><size\=28><color\=#024068>Firing Pin hits a bullet at high speed and detonates the gunpowder, resulting in a fatal blow that deals damage, which is increased if the enemy is aiming.</color></size></b>"
+
+// Desire for Life Shell (Janosik)
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 축복 속성 대미지를 주고, 생명이 가장 낮은 동료 1명이 공격력 <color\=#fffc40>(\d+\.\d+%)</color>\+<color\=#fffc40>(\d+)</color>의 생명을 회복한다.\n<b><size\=28><color\=#024068>액스건이 휘두른 궤적은 공중에서 순식간에 뒤엉켜 무방비 상태의 모든 적에게 대미지를 주고, 교차점에서 뿜어져 나오는 아크가 동료들을 치유한다.</color></size></b>$"="Deals <color\=#fffc40>$1</color> ATK Bless damage to all enemies and restores <color\=#fffc40>$2</color> ATK + <color\=#fffc40>$3</color> HP to the lowest HP ally.\n<b><size\=28><color\=#024068>The trajectories of the axe and spear swing intersect instantly in the air, dealing damage to all unsuspecting enemies, and the arcs of light bursting from the intersections heal your companions.</color></size></b>"
+
+
+
+
+--- Gun ---
+
+
+//One-Shot Kill
+r:"1명의 적에게 공격 포인트 <color\=#fffc40>(\d+\.\d+%)</color>의 총격 속성 대미지를 주고, 크리티컬 확률이 (\d*\.?\d+%) 증가한다."=Deals <color\=#FFFF00>$1</color> ATK Gun damage to <color\=#FFFF00>1</color> enemy with a $2 increase in CRIT Rate.
+
+// Snap
+r:"1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 총격 속성 대미지를 주고, 크리티컬 확률이 (\d*\.?\d+%) 증가한다."=Deals <color\=#FFFF00>$1</color> ATK Gun damage to <color\=#FFFF00>1</color> enemy with a $2 decrease in Hit Rate.
+
+//Triple Down
+r:"모든 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 총격 속성 대미지를 3회 입히고, 크리티컬 확률이 (\d*\.?\d+%) 증가하며 명중률은 (\d*\.?\d+%) 감소한다."=Deals <color\=#FFFF00>$1</color> ATK Gun damage to <color\=#FFFF00>all</color> enemies with a $2 increase in CRIT Rate and $3 decrease in Hit Rate 3x.
+
+
+--- Ice ---
+
+// Avalanche (Black Frost)
+r:"^1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 빙결 속성 대미지를 주고, (\d+%)의 고정 확률로 약점과 다운 수치를 무시하여 목표를 다운 상태에 빠뜨린다. 해당 스킬로 적을 다운 상태에 빠뜨리면 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 빙결 속성 대미지를 추가로 1회 준다.$"="Deals <color\=#fffc40>$1</color> ATK Ice damage to 1 enemy, with a $2 fixed chance to ignore weakness and Down Gauge to down the enemy. If this skill downed the enemy, deal an additional <color\=#fffc40>$3</color> ATK Ice damage."
+
+
+--- Wind ---
+
+// Vishnu
+r:"^1명의 적에게 공격력 <color\=#fffc40>(\d+\.\d+%)</color>의 질풍 속성 대미지를 주고, (\d+%)의 기본 확률로 적을 풍습 상태에 빠뜨린다.\n적이 풍습 상태인 경우 지속 시간을 초기화하고, 이번 스킬이 주는 대미지가 <color\=#fffc40>(\d+\.\d+%)</color> 증가하며 적이 받는 질풍 대미지가 <color\=#fffc40>(\d+\.\d+%)</color> 심화된다. 효과는 (\d+)턴 동안 지속된다.$"="Deals <color\=#fffc40>$1</color> ATK Wind damage to 1 enemy, with a $2 base chance to inflict them with Winded; \nIf they are already inflicted with Winded, refreshes its duration, increases this damage by <color\=#fffc40>$3</color> and increases their Wind DMG Taken by <color\=#fffc40>$4</color> for $5 turns."
+
+
+--- Dispel ---
+모든 동료의 속성 감소 효과 1개를 제거한다.。=Negate 1 stat reducing effect for all allies.
+모든 적의 속성 증가 효과 1개를 제거한다.=Negate 1 stat increasing effect for all enemies.
+
+
+
+// Skill Characteristics (These are at the bottom cuz theyre used in skill descriptions too)//
+
+광역피해=Multi-Target
+단일피해=Single-Target
+단일치료= Recovery
+ 광역치료= AoE Recovery
+버프=Buff
+디버프=Debuff
+제어=Ailment
+반격강화=Enhanced Counter
+전환=Upgrade
+실드=Shield
+단일공격=Single-Target
+
