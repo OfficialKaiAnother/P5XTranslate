@@ -9,15 +9,15 @@ UI - Aquarius
 
 이번 시즌 남은 시간: =Remaining Time: 
 
-자기장 정보: =Info:
-도전 라인업: =Lineup:
-도전 보상: =Rewards:
-섀도 정보: =Shadows:
-배지 상세=Badges
+r:"^자기장 정보: "="Info:"
+r:"^도전 라인업: "="Lineup:"
+r:"^도전 보상: "="Rewards:"
+r:"^섀도 정보: "="Shadows:"
+r:"^배지 상세"="Badges"
 
 
-클리어한 체크 포인트:=Cleared Checkpoints:
-필요한 정신력:=Mental Energy Used:
+r:"^클리어한 체크 포인트:"="Cleared Checkpoints:"
+r:"^필요한 정신력:"=Mental Energy Used:"
 
 r:"^「레드·체크 포인트」 통과\((\d+)/(\d+)\)"="Passed the "Red-Checkpoint" ($1/$2)"
 
@@ -31,75 +31,75 @@ r:"^사용 가능 정신력: <color\=#FFC000>(\d+)포인트</color>\(상한 (\d+
 
 r:"^모든 괴도 도전 횟수 <color\=#FFC000>(\d+)회</color> 증가\(상한 (\d+)\)"="Increase Thief Usage by <color\=#FFC000>$1</color> (Max $2)"
 
-<color\=#FFFC40>원더</color>의 최종 대미지가 100% 증가한다.=Increase <color\=#FFFC40>Wonder</color>'s Final DMG by 100%.
+r:"^<color\=#FFFC40>원더</color>의 최종 대미지가 100% 증가한다."="Increase <color\=#FFFC40>Wonder</color>'s Final DMG by 100%."
 
-모든 괴도는 <color\=#FFFC40>추가 턴</color>에서 최종 대미지가 120% 증가한다.=Increase all Thieves' Final DMG by 120% when they are  .in <color\=#FFFC40>Extra Turn</color>.
-
-
-<color\=#ff381d>화염</color>/<color\=#00aeff>빙결</color>/<color\=#fbff37>전격</color>/<color\=#81ea2c>질풍</color> 속성 팀원이 주는 최종 대미지가 30% 증가한다.=Increase the final DMG of <color\=#ff381d>Fire</color>/<color\=#00aeff>Ice</color>/<color\=#fbff37>Elec</color>/<color\=#81ea2c>Wind</color> by 30%.
-
-<color\=#ff63ff>염동</color>/<color\=#00fcff>핵열</color>/<color\=#fffea0>축복</color>/<color\=#ff0036>주원</color> 속성 팀원이 주는 최종 대미지가 30% 증가한다.=Increase the final DMG of <color\=#ff63ff>Psy</color>/<color\=#00fcff>Nuke</color>/<color\=#fffea0>Bless</color>/<color\=#ff0036>Curse</color> by 30%.
-
-파티에 <color\=#FFFC40>반항/지배</color> 괴도가 2명 이상이면 전체 괴도의 최종 대미지가 60% 증가한다.=Increase all Thieves' Final DMG by 60% when there are 2 or more <color\=#FFFC40>Rebellion/Domination</color> Thieves.
-
-모든 괴도가 <color\=#FFFC40>추가 치료를 받을</color> 때마다 2턴 동안 최종 대미지가 30% 증가한다(2회 중첩 가능).=Increase all Thieves' Final DMG by 30% after recieving <color\=#FFFC40>Follow Up Healing</color> for 2 turns, up to 2 stacks.
-
-모든 적이 <color\=#FFFC40>원소 이상</color> 상태를 1개 보유할 때마다 받는 최종 대미지가 5% 증가한다. 또한, 동시에 4종 <color\=#FFFC40>원소 이상</color> 상태를 보유하면 받는 최종 대미지가 추가로 40% 증가한다.=Increase all enemies' Final DMG taken by 5% for every <color\=#FFFC40>Elemental Ailment</color> they have; ditionally, Additionally increase their Final DMG taken by 40% when they have 4 or more <color\=#FFFC40>Elemental Ailments</color>.
+r:"^모든 괴도는 <color\=#FFFC40>추가 턴</color>에서 최종 대미지가 120% 증가한다."="Increase all Thieves' Final DMG by 120% when they are  .in <color\=#FFFC40>Extra Turn</color>."
 
 
-모든 괴도가 <color\=#FFFC40>TECHNICAL</color>을 줄 시, 최종 대미지가 100% 증가한다.=Increase all Thieves' Final DMG by 100% when dealing <color\=#FFFC40>TECHNICAL</color> damage.
+r:"^<color\=#ff381d>화염</color>/<color\=#00aeff>빙결</color>/<color\=#fbff37>전격</color>/<color\=#81ea2c>질풍</color> 속성 팀원이 주는 최종 대미지가 30% 증가한다."="Increase the final DMG of <color\=#ff381d>Fire</color>/<color\=#00aeff>Ice</color>/<color\=#fbff37>Elec</color>/<color\=#81ea2c>Wind</color> by 30%."
 
-<color\=#FFFC40>반항</color> 괴도가 주는 최종 대미지가 30% 증가한다.=Increase the Final DMG of <color\=#FFFC40>Rebel</color> Thieves by 30%.
+r:"^<color\=#ff63ff>염동</color>/<color\=#00fcff>핵열</color>/<color\=#fffea0>축복</color>/<color\=#ff0036>주원</color> 속성 팀원이 주는 최종 대미지가 30% 증가한다."="Increase the final DMG of <color\=#ff63ff>Psy</color>/<color\=#00fcff>Nuke</color>/<color\=#fffea0>Bless</color>/<color\=#ff0036>Curse</color> by 30%."
 
-파티에 <color\=#FFFC40>같은 속성</color>의 괴도가 2/3/4명 있을 시, 전체 괴도의 최종 대미지가 20%/40%/60% 증가한다.=Increase all Thieves' Final DMG by 20%/40%/60% when you have 2/3/4 Thieves with <color\=#FFFC40>the same Element</color>.
+r:"^파티에 <color\=#FFFC40>반항/지배</color> 괴도가 2명 이상이면 전체 괴도의 최종 대미지가 60% 증가한다."="Increase all Thieves' Final DMG by 60% when there are 2 or more <color\=#FFFC40>Rebellion/Domination</color> Thieves."
 
-효과 1: 적이 받는 <color\=#FFFC40>ONEMORE/총공격</color>의 대미지가 400% 증가한다.\n효과 2: 전투 시작 및 적의 턴 시작 시, 적은 무작위로 속성 약점 1개를 획득한다(가장 최근에 얻은 약점만 존재).=All enemies take 400% more damage from <color\=#FFFC40>ONE MORE and All Attacks</color>; All enemies randomly gain 1 weakness at the start of each turns.
+r:"^모든 괴도가 <color\=#FFFC40>추가 치료를 받을</color> 때마다 2턴 동안 최종 대미지가 30% 증가한다(2회 중첩 가능)."="Increase all Thieves' Final DMG by 30% after recieving <color\=#FFFC40>Follow Up Healing</color> for 2 turns, up to 2 stacks."
 
-
-
-모든 적이 괴도에게 대미지를 1회 받을 때마다 해당 괴도의 최종 대미지가 3턴 동안 4%씩 증가한다(15회 중첩 가능).=After enemies take 1 hit of damage from a Thief, increase that Thief's Final DMG by 4% for 3 turns, up to 15 stacks. 
+r:"^모든 적이 <color\=#FFFC40>원소 이상</color> 상태를 1개 보유할 때마다 받는 최종 대미지가 5% 증가한다. 또한, 동시에 4종 <color\=#FFFC40>원소 이상</color> 상태를 보유하면 받는 최종 대미지가 추가로 40% 증가한다."="Increase all enemies' Final DMG taken by 5% for every <color\=#FFFC40>Elemental Ailment</color> they have; ditionally, Additionally increase their Final DMG taken by 40% when they have 4 or more <color\=#FFFC40>Elemental Ailments</color>."
 
 
-모든 팀원이 <color\=#FFFC40>지속 대미지</color>를 줄 시, 최종 대미지가 200% 증가한다.=Increase all Thieves' Final DMG by 200% when dealing <color\=#FFFC40>DOT (Damage Over Time)</color>.
+r:"^모든 괴도가 <color\=#FFFC40>TECHNICAL</color>을 줄 시, 최종 대미지가 100% 증가한다."="Increase all Thieves' Final DMG by 100% when dealing <color\=#FFFC40>TECHNICAL</color> damage."
+
+r:"^<color\=#FFFC40>반항</color> 괴도가 주는 최종 대미지가 30% 증가한다."="Increase the Final DMG of <color\=#FFFC40>Rebel</color> Thieves by 30%."
+
+r:"^파티에 <color\=#FFFC40>같은 속성</color>의 괴도가 2/3/4명 있을 시, 전체 괴도의 최종 대미지가 20%/40%/60% 증가한다."="Increase all Thieves' Final DMG by 20%/40%/60% when you have 2/3/4 Thieves with <color\=#FFFC40>the same Element</color>."
+
+r:"^효과 1: 적이 받는 <color\=#FFFC40>ONEMORE/총공격</color>의 대미지가 400% 증가한다.\n효과 2: 전투 시작 및 적의 턴 시작 시, 적은 무작위로 속성 약점 1개를 획득한다(가장 최근에 얻은 약점만 존재)."="All enemies take 400% more damage from <color\=#FFFC40>ONE MORE and All Attacks</color>; All enemies randomly gain 1 weakness at the start of each turns."
+
+
+
+r:"^모든 적이 괴도에게 대미지를 1회 받을 때마다 해당 괴도의 최종 대미지가 3턴 동안 4%씩 증가한다(15회 중첩 가능)."="After enemies take 1 hit of damage from a Thief, increase that Thief's Final DMG by 4% for 3 turns, up to 15 stacks."
+
+
+r:"^모든 팀원이 <color\=#FFFC40>지속 대미지</color>를 줄 시, 최종 대미지가 200% 증가한다."="Increase all Thieves' Final DMG by 200% when dealing <color\=#FFFC40>DOT (Damage Over Time)</color>."
 
 ----------
 UI - Pisces
 ----------
 
 //M1
-<color\=#ff381d>화염</color>/<color\=#00aeff>빙결</color>/<color\=#fbff37>전격</color>/<color\=#81ea2c>질풍</color> 속성 팀원이 주는 최종 대미지가 60% 증가한다.=Increase the Final DMG of <color\=#ff381d>Fire</color>/<color\=#00aeff>Ice</color>/<color\=#fbff37>Electric</color>/<color\=#81ea2c>Wind</color> by 60%.
+r:"^<color\=#ff381d>화염</color>/<color\=#00aeff>빙결</color>/<color\=#fbff37>전격</color>/<color\=#81ea2c>질풍</color> 속성 팀원이 주는 최종 대미지가 60% 증가한다."="Increase the Final DMG of <color\=#ff381d>Fire</color>/<color\=#00aeff>Ice</color>/<color\=#fbff37>Electric</color>/<color\=#81ea2c>Wind</color> by 60%."
 
 //M2
-<color\=#FFFC40>반항</color> 괴도가 주는 최종 대미지가 60% 증가한다.=Increase the Final DMG of <color\=#FFFC40>Rebel</color> Thieves by 60%.
+r:"^<color\=#FFFC40>반항</color> 괴도가 주는 최종 대미지가 60% 증가한다."="Increase the Final DMG of <color\=#FFFC40>Rebel</color> Thieves by 60%."
 
 //M3
-<color\=#FFFC40>지배</color> 괴도가 주는 최종 대미지가 60% 증가한다.=Increase the Final DMG of <color\=#FFFC40>Dominate</color> Thieves by 60%.
+r:"^<color\=#FFFC40>지배</color> 괴도가 주는 최종 대미지가 60% 증가한다."="Increase the Final DMG of <color\=#FFFC40>Dominate</color> Thieves by 60%."
 
 //M4
 
 //M5
-<color\=#ff63ff>염동</color>/<color\=#00fcff>핵열</color>/<color\=#fffea0>축복</color>/<color\=#ff0036>주원</color> 속성 팀원이 주는 최종 대미지가 60% 증가한다.=Increase the Final DMG of <color\=#ff63ff>Psy</color>/<color\=#00fcff>Nuclear</color>/<color\=#fffea0>Bless</color>/<color\=#ff0036>Curse</color> by 60%.
+r:"^<color\=#ff63ff>염동</color>/<color\=#00fcff>핵열</color>/<color\=#fffea0>축복</color>/<color\=#ff0036>주원</color> 속성 팀원이 주는 최종 대미지가 60% 증가한다."="Increase the Final DMG of <color\=#ff63ff>Psy</color>/<color\=#00fcff>Nuclear</color>/<color\=#fffea0>Bless</color>/<color\=#ff0036>Curse</color> by 60%."
 
 
 //M6
 
-모든 괴도의 <color\=#FFFC40>일반 공격/총기 공격</color>으로 주는 최종 대미지가 100% 증가한다.=Increases all Thieves' Final DMG by 100% when dealing damage with <color\=#FFFC40>Melee Attack/Gun Attacks</color>.
+r:"^모든 괴도의 <color\=#FFFC40>일반 공격/총기 공격</color>으로 주는 최종 대미지가 100% 증가한다."="Increases all Thieves' Final DMG by 100% when dealing damage with <color\=#FFFC40>Melee Attack/Gun Attacks</color>."
 
 //M7
 
-모든 팀원의 임의 턴 종료부터 다음 턴 종료까지 대미지를 주지 않은 경우 1턴 동안 최종 대미지가 50% 증가한다.=Increase Thieves' Final DMG by 100% if they dealt no damage the previous turn.
+r:"^모든 팀원의 임의 턴 종료부터 다음 턴 종료까지 대미지를 주지 않은 경우 1턴 동안 최종 대미지가 50% 증가한다."="Increase Thieves' Final DMG by 100% if they dealt no damage the previous turn."
 
 //M2-L
 
-<color\=#ff381d>『마음의 괴도단』</color> 멤버의 최종 대미지가 60% 증가한다.=Increases the Final DMG of <color\=#ff381d>『The Phantom Thieves of Hearts』</color> by 60%.
+r:"^<color\=#ff381d>『마음의 괴도단』</color> 멤버의 최종 대미지가 60% 증가한다."="Increases the Final DMG of <color\=#ff381d>『The Phantom Thieves of Hearts』</color> by 60%."
 
 //M3-L
 
-보스의 턴이 종료될 때 모든 괴도가 <color\=#FFFC40>『위압』</color>을 1중첩 획득한다. 『위압』이 제거된 후 모든 적이 『위압』을 1중첩 획득한다.\n『위압』: 3턴 동안 받는 최종 대미지가 10% 증가한다(6회 중첩 가능).=Boss will inflict all enemies with 1 stack of <color\=#FFFC40>『Coercion』</color> at the end of each turn;\nWhen [Coercion] is dispelled, all enemies gain 1 stack of [Coercion]. \n[Coercion]: Increases Final DMG Taken by 10% for 3 turns, up to 6 stacks.
+r:"^보스의 턴이 종료될 때 모든 괴도가 <color\=#FFFC40>『위압』</color>을 1중첩 획득한다. 『위압』이 제거된 후 모든 적이 『위압』을 1중첩 획득한다.\n『위압』: 3턴 동안 받는 최종 대미지가 10% 증가한다(6회 중첩 가능)."="Boss will inflict all enemies with 1 stack of <color\=#FFFC40>『Coercion』</color> at the end of each turn;\nWhen [Coercion] is dispelled, all enemies gain 1 stack of [Coercion]. \n[Coercion]: Increases Final DMG Taken by 10% for 3 turns, up to 6 stacks."
 
 //M4-L
 
-모든 팀원이 <color\=#FFFC40>지속 대미지</color>를 줄 때, 최종 대미지가 200% 증가한다.=Increase all Thieves' Final DMG by 200% when dealing <color\=#FFFC40>DOT (Damage Over Time)</color>.
+r:"^모든 팀원이 <color\=#FFFC40>지속 대미지</color>를 줄 때, 최종 대미지가 200% 증가한다."="Increase all Thieves' Final DMG by 200% when dealing <color\=#FFFC40>DOT (Damage Over Time)</color>."
 
 
 //M5-L
@@ -107,26 +107,26 @@ UI - Pisces
 
 //P1
 
-HIGHLIGHT 에너지 회복 속도가 20% 감소하고, 모든 괴도 <color\=#FFFC40>HIGHLIGHT</color>의 최종 대미지가 100% 증가한다.=Increases all Thieves' <color\=#FFFC40>HIGHLIGHT</color> Final DMG by 100%; Decrease HIGHLIGHT Energy Recovery Rate by 20%.
+r:"^HIGHLIGHT 에너지 회복 속도가 20% 감소하고, 모든 괴도 <color\=#FFFC40>HIGHLIGHT</color>의 최종 대미지가 100% 증가한다."="Increases all Thieves' <color\=#FFFC40>HIGHLIGHT</color> Final DMG by 100%; Decrease HIGHLIGHT Energy Recovery Rate by 20%."
 
 
 //P2
 
-효과 1: 적은 대부분 <color\=#FFFC40>정신 이상/제어</color> 상태를 받을 수 있으며, 모든 팀원이 <color\=#FFFC40>정신 이상/제어</color> 상태를 주면, 효과 명중이 크게 증가한다.\n효과 2: <color\=#FFFC40>정신 이상/제어</color> 상태의 적이 받는 최종 대미지가 60% 증가한다.=Enemies are suspectable to most <color\=#FFFC40>Mental Ailments/Control Effects</color>;\nHeavily increases all Thieves' ERH when inflicting <color\=#FFFC40>Mental Ailments/Control Effects</color>;\nEnemies with <color\=#FFFC40>Mental Ailments/Control Effects</color> increase Final DMG taken by 60%
+r:"^효과 1: 적은 대부분 <color\=#FFFC40>정신 이상/제어</color> 상태를 받을 수 있으며, 모든 팀원이 <color\=#FFFC40>정신 이상/제어</color> 상태를 주면, 효과 명중이 크게 증가한다.\n효과 2: <color\=#FFFC40>정신 이상/제어</color> 상태의 적이 받는 최종 대미지가 60% 증가한다."="Enemies are suspectable to most <color\=#FFFC40>Mental Ailments/Control Effects</color>;\nHeavily increases all Thieves' ERH when inflicting <color\=#FFFC40>Mental Ailments/Control Effects</color>;\nEnemies with <color\=#FFFC40>Mental Ailments/Control Effects</color> increase Final DMG taken by 60%"
 
 
 //P3
 
-모든 팀원이 <color\=#FFFC40>추가 효과</color>를 줄 때, 최종 대미지가 100% 증가한다.=Increase all Thieves' Final DMG by 200% when dealing damage with <color\=#FFFC40>Follow Up</color>.
+r:"^모든 팀원이 <color\=#FFFC40>추가 효과</color>를 줄 때, 최종 대미지가 100% 증가한다."="Increase all Thieves' Final DMG by 200% when dealing damage with <color\=#FFFC40>Follow Up</color>."
 
 
 //P4
 
-<color\=#FF9C00>물리</color>/<color\=#FF9C00>총격</color>/<color\=#E3E3E3>만능</color> 속성 팀원이 주는 최종 대미지가 60% 증가한다.=Increases the Final DMG of <color\=#FF9C00>Physical</color>/<color\=#FF9C00>Gun</color>/<color\=#E3E3E3>Almighty</color> Thieves by 60%.
+r:"^<color\=#FF9C00>물리</color>/<color\=#FF9C00>총격</color>/<color\=#E3E3E3>만능</color> 속성 팀원이 주는 최종 대미지가 60% 증가한다."="Increases the Final DMG of <color\=#FF9C00>Physical</color>/<color\=#FF9C00>Gun</color>/<color\=#E3E3E3>Almighty</color> Thieves by 60%."
 
 //R1
 
-모든 괴도의 <color\=#FFFC40>TECHNICAL</color>로 주는 최종 대미지가 100% 증가한다.=Increase all Thieves' Final DMG by 100% whenn dealing damage with <color\=#FFFC40>TECHNICAL</color>.
+r:"^모든 괴도의 <color\=#FFFC40>TECHNICAL</color>로 주는 최종 대미지가 100% 증가한다."="Increase all Thieves' Final DMG by 100% whenn dealing damage with <color\=#FFFC40>TECHNICAL</color>."
 
 
 
