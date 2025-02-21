@@ -1,0 +1,25 @@
+
+r:"괴도 (\d+)명 필요"="Requires $1 Thieves"
+
+
+
+
+
+
+파견 선택=Dispatch
+의뢰 보상=Rewards
+파견 조건=Requires
+
+매일 첫 회 무료=Free Daily
+
+r:"(\d+)시간 (\d+)분"=$1 Hours $2 Mins
+
+
+r:"(\d+)레벨 괴도 (\d+)명 필요"=Requires $2 level $1 Thieves
+
+
+보너스=Bonus
+받기=Req
+
+
+현재 의뢰=Commission
